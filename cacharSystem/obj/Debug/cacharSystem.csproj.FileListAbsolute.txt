@@ -1,0 +1,13 @@
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\bin\Debug\cacharSystem.exe.config
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\bin\Debug\cacharSystem.exe
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\bin\Debug\cacharSystem.pdb
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\bin\Debug\Guna.UI2.dll
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.Form1.resources
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.Properties.Resources.resources
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.csproj.GenerateResource.cache
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.csproj.CoreCompileInputs.cache
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.csproj.CopyComplete
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.exe
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.pdb
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.UC_productItemList.resources
+C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.csprojAssemblyReference.cache
