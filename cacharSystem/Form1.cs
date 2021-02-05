@@ -22,13 +22,7 @@ namespace cacharSystem
             generateProductList();
         }
 
-        private void moveImageBox(object sender)
-        {
-            Guna2Button b = (Guna2Button)sender;
-            imgSlider.Location = new Point(b.Location.X + 20, b.Location.Y - 26);
-            imgSlider.SendToBack();
-        }
-        private void guna2Button1_CheckedChanged(object sender, EventArgs e)
+        private void addProducts_CheckedChanged(object sender, EventArgs e)
         {
             moveImageBox(sender);
         }
@@ -55,9 +49,16 @@ namespace cacharSystem
             filter();
         }
 
+        private void moveImageBox(object sender)
+        {
+            Guna2Button b = (Guna2Button)sender;
+            imgSlider.Location = new Point(b.Location.X + 20, b.Location.Y - 26);
+            imgSlider.SendToBack();
+        }
+
         private void generateProductList()
         {
-            productList.Controls.Clear();
+            panalContainer.Controls.Clear();
             products.Add(new product(1, "tit", 3, 40, 30, "inrfrnfj"));
             products.Add(new product(1, "tit1", 3, 20, 30, "inrfrnfj"));
             products.Add(new product(1, "tit2", 3, 30, 310, "inrfrnfj"));
@@ -78,6 +79,11 @@ namespace cacharSystem
             products.Add(new product(1, "tit", 3, 40, 30, "inrfrnfj"));
             products.Add(new product(1, "tit", 3, 40, 30, "inrfrnfj"));
             products.Add(new product(1, "tit", 3, 40, 30, "inrfrnfj"));
+            genrateProductListView();
+        }
+        private void genrateProductListView()
+        {
+            panalContainer.Controls.Clear();
             foreach (product p in products)
             {
                 addUserControl(p);
@@ -85,27 +91,28 @@ namespace cacharSystem
         }
         private void addUserControl(product p)
         {
+            
             UC_productItemList uc = new UC_productItemList();
+            uc.BringToFront();
             uc.setTitle(p.title);
             //uc_.setImage(p.image);
             uc.setQuantity(p.quantity);
             uc.setSellPrice(p.sellPrice);
             uc.setFactoryPrice(p.factoryPrice);
             uc.setId(p.id);
-            uc.BringToFront();
-            int uc_count = productList.Controls.Count;
+            int uc_count = panalContainer.Controls.Count;
             if (uc_count != 0)
             {
                 uc.Location = new Point(uc.Location.X
                     , uc.Location.Y + (uc_count * uc.Height));
             }
-            productList.Controls.Add(uc);
+            panalContainer.Controls.Add(uc);
         }
         private void filter()
         {
             if (search.Text.Trim().Length > 0 && !search.Text.Equals("Search"))
             {
-                productList.Controls.Clear();
+                panalContainer.Controls.Clear();
                 String searchKey = search.Text;
                 foreach (product p in products)
                 {
@@ -115,6 +122,21 @@ namespace cacharSystem
                     }
                 }
             }
+        }
+
+        private void addProducts_Click(object sender, EventArgs e)
+        {
+            panalContainer.Controls.Clear();
+            addProductUC uc = new addProductUC();
+            uc.BringToFront();
+            uc.Dock = DockStyle.Fill;
+            panalContainer.Controls.Add(uc);
+        }
+
+        private void Home_Click(object sender, EventArgs e)
+        {
+
+            genrateProductListView();
         }
     }
 }

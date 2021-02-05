@@ -11,3 +11,17 @@ C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSyste
 C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.pdb
 C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.UC_productItemList.resources
 C:\Users\mahmoudjoe\source\repos\cacharSystem\cacharSystem\obj\Debug\cacharSystem.csprojAssemblyReference.cache
+D:\شغل شفيق\Cashier-system\cacharSystem\bin\Debug\cacharSystem.exe.config
+D:\شغل شفيق\Cashier-system\cacharSystem\bin\Debug\cacharSystem.exe
+D:\شغل شفيق\Cashier-system\cacharSystem\bin\Debug\cacharSystem.pdb
+D:\شغل شفيق\Cashier-system\cacharSystem\bin\Debug\Guna.UI2.dll
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csprojAssemblyReference.cache
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Form1.resources
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.UC_productItemList.resources
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Properties.Resources.resources
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.GenerateResource.cache
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.CoreCompileInputs.cache
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.CopyComplete
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.exe
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.pdb
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.addProductUC.resources
