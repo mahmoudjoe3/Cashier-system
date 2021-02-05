@@ -118,23 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2Button2.CheckedState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="addProducts.CheckedState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAADlSURBVFhH7Za9DcIwEIXTwAyQjEBJi0BiN/5GQHYYICNAvAFDpACEWAKccLkiknVn+4Qo/Emv
-        8NN7T1c6SyT+kllVjXNT7vJaN1bvSDVFrbfz63EE8zS2tB+MRKuo1QbmaWzh3pYm59MKrGAKo9bfI9QN
-        LJr+anhG472XDuAWpHOI9DA3h0gPc3OI9DA3h7gKvU8J4ojLd0INUYI44vKdcAvSOUR6mJtDpIe5OUR6
-        mJtDvAsE6YCQA55d6VIuwApmavQSDniARWPDByiJyetL1n1K23+h0a/hkLfshvenNJH4HVn2ATx93Uz5
-        lJOOAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAOVJREFUWEft
+        lr0NwjAQhdPADJCMQEmLQGI3/kZAdhggI0C8AUOkAIRYApxwuSKSdWf7hCj8Sa/w03tPVzpLJP6SWVWN
+        c1Pu8lo3Vu9INUWtt/PrcQTzNLa0H4xEq6jVBuZpbOHelibn0wqsYAqj1t8j1A0smv5qeEbjvZcO4Bak
+        c4j0MDeHSA9zc4j0MDeHuAq9TwniiMt3Qg1Rgjji8p1wC9I5RHqYm0Okh7k5RHqYm0O8CwTpgJADnl3p
+        Ui7ACmZq9BIOeIBFY8MHKInJ60vWfUrbf6HRr+GQt+yG96c0kfgdWfYBPH3dTPmUk44AAAAASUVORK5C
+        YII=
 </value>
   </data>
   <data name="addProducts.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAACsSURBVFhH7ZZLCsMwEEO9SU8VUujd+sktu2hD6SUmGkZ4kc3EsSmmzAMvLCSh5aQg6BIROeHd
-        8Z54tWjHDW9gvQ/MD0025sp6H5jflpEzpcOg42JV8qLkw4DwWw3r9vfRHwPcAG3NfBn6Y0B/Ayi70J6h
-        /AcDttDWzJehPwb0P2AvrIsBRQM+FpGR0mHQMVmVLJR8YJ4t05Sik0yPUr0Lv5qsRDvKjtIg+B0prZFv
-        EZiFKcl9AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAKxJREFUWEft
+        lksKwzAQQ71JTxVS6N36yS27aEPpJSYaRniRzcSxKabMAy8sJKHlpCDoEhE54d3xnni1aMcNb2C9D8wP
+        TTbmynofmN+WkTOlw6DjYlXyouTDgPBbDev299EfA9wAbc18GfpjQH8DKLvQnqH8BwO20NbMl6E/BvQ/
+        YC+siwFFAz4WkZHSYdAxWZUslHxgni3TlKKTTI9SvQu/mqxEO8qO0iD4HSmtkW8RmIUpyX0AAAAASUVO
+        RK5CYII=
 </value>
   </data>
   <data name="addCashier.CheckedState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -193,7 +193,7 @@
         YII=
 </value>
   </data>
-  <data name="guna2Button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="exit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAelJREFUaEPt
         ms1Kw0AUhSOiO0EF12o3UhF0p/gMbnwIn0AXVZfiMxQ34tKXEAoiCBV9AlEXiqC4EH/qKp479xZKaTtJ

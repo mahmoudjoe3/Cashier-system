@@ -25,3 +25,4 @@ D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.Cop
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.exe
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.pdb
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.addProductUC.resources
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.registercashierUC.resources

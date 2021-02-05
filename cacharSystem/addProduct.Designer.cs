@@ -156,10 +156,10 @@ namespace cacharSystem
             this.addProduct.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addProduct.ForeColor = System.Drawing.Color.White;
             this.addProduct.HoverState.Parent = this.addProduct;
-            this.addProduct.Location = new System.Drawing.Point(399, 399);
+            this.addProduct.Location = new System.Drawing.Point(92, 261);
             this.addProduct.Name = "addProduct";
             this.addProduct.ShadowDecoration.Parent = this.addProduct;
-            this.addProduct.Size = new System.Drawing.Size(180, 45);
+            this.addProduct.Size = new System.Drawing.Size(412, 45);
             this.addProduct.TabIndex = 11;
             this.addProduct.Text = "Add product";
             this.addProduct.Click += new System.EventHandler(this.addProduct_Click);

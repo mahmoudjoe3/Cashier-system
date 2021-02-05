@@ -33,8 +33,9 @@ namespace cacharSystem
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.addProducts = new Guna.UI2.WinForms.Guna2Button();
             this.addCashier = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.exit = new Guna.UI2.WinForms.Guna2Button();
             this.recipt = new Guna.UI2.WinForms.Guna2Button();
             this.prop = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -50,7 +51,6 @@ namespace cacharSystem
             this.search = new System.Windows.Forms.TextBox();
             this.panalContainer = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.addProducts = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -76,7 +76,7 @@ namespace cacharSystem
             this.guna2CustomGradientPanel1.BorderRadius = 18;
             this.guna2CustomGradientPanel1.Controls.Add(this.addProducts);
             this.guna2CustomGradientPanel1.Controls.Add(this.addCashier);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button4);
+            this.guna2CustomGradientPanel1.Controls.Add(this.exit);
             this.guna2CustomGradientPanel1.Controls.Add(this.recipt);
             this.guna2CustomGradientPanel1.Controls.Add(this.prop);
             this.guna2CustomGradientPanel1.Controls.Add(this.pictureBox2);
@@ -91,6 +91,33 @@ namespace cacharSystem
             this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(86, 551);
             this.guna2CustomGradientPanel1.TabIndex = 0;
+            // 
+            // addProducts
+            // 
+            this.addProducts.BackColor = System.Drawing.Color.Transparent;
+            this.addProducts.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
+            this.addProducts.BorderRadius = 24;
+            this.addProducts.BorderThickness = 1;
+            this.addProducts.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.addProducts.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.addProducts.CheckedState.FillColor = System.Drawing.Color.White;
+            this.addProducts.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("addProducts.CheckedState.Image")));
+            this.addProducts.CheckedState.Parent = this.addProducts;
+            this.addProducts.CustomImages.Parent = this.addProducts;
+            this.addProducts.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
+            this.addProducts.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.addProducts.ForeColor = System.Drawing.Color.White;
+            this.addProducts.HoverState.Parent = this.addProducts;
+            this.addProducts.Image = ((System.Drawing.Image)(resources.GetObject("addProducts.Image")));
+            this.addProducts.ImageSize = new System.Drawing.Size(30, 30);
+            this.addProducts.Location = new System.Drawing.Point(23, 231);
+            this.addProducts.Name = "addProducts";
+            this.addProducts.ShadowDecoration.Parent = this.addProducts;
+            this.addProducts.Size = new System.Drawing.Size(60, 50);
+            this.addProducts.TabIndex = 5;
+            this.addProducts.UseTransparentBackground = true;
+            this.addProducts.CheckedChanged += new System.EventHandler(this.addProducts_CheckedChanged);
+            this.addProducts.Click += new System.EventHandler(this.addProducts_Click);
             // 
             // addCashier
             // 
@@ -117,29 +144,31 @@ namespace cacharSystem
             this.addCashier.TabIndex = 4;
             this.addCashier.UseTransparentBackground = true;
             this.addCashier.CheckedChanged += new System.EventHandler(this.addProducts_CheckedChanged);
+            this.addCashier.Click += new System.EventHandler(this.addCashier_Click);
             // 
-            // guna2Button4
+            // exit
             // 
-            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
-            this.guna2Button4.BorderRadius = 24;
-            this.guna2Button4.BorderThickness = 1;
-            this.guna2Button4.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2Button4.CheckedState.FillColor = System.Drawing.Color.White;
-            this.guna2Button4.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.CheckedState.Image")));
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
-            this.guna2Button4.Location = new System.Drawing.Point(13, 479);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(60, 50);
-            this.guna2Button4.TabIndex = 3;
-            this.guna2Button4.UseTransparentBackground = true;
+            this.exit.BackColor = System.Drawing.Color.Transparent;
+            this.exit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
+            this.exit.BorderRadius = 24;
+            this.exit.BorderThickness = 1;
+            this.exit.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.exit.CheckedState.FillColor = System.Drawing.Color.White;
+            this.exit.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.CheckedState.Image")));
+            this.exit.CheckedState.Parent = this.exit;
+            this.exit.CustomImages.Parent = this.exit;
+            this.exit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
+            this.exit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.exit.ForeColor = System.Drawing.Color.White;
+            this.exit.HoverState.Parent = this.exit;
+            this.exit.Image = ((System.Drawing.Image)(resources.GetObject("exit.Image")));
+            this.exit.Location = new System.Drawing.Point(13, 479);
+            this.exit.Name = "exit";
+            this.exit.ShadowDecoration.Parent = this.exit;
+            this.exit.Size = new System.Drawing.Size(60, 50);
+            this.exit.TabIndex = 3;
+            this.exit.UseTransparentBackground = true;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // recipt
             // 
@@ -362,33 +391,6 @@ namespace cacharSystem
             this.guna2Elipse1.BorderRadius = 30;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // addProducts
-            // 
-            this.addProducts.BackColor = System.Drawing.Color.Transparent;
-            this.addProducts.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
-            this.addProducts.BorderRadius = 24;
-            this.addProducts.BorderThickness = 1;
-            this.addProducts.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.addProducts.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.addProducts.CheckedState.FillColor = System.Drawing.Color.White;
-            this.addProducts.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.CheckedState.Image")));
-            this.addProducts.CheckedState.Parent = this.addProducts;
-            this.addProducts.CustomImages.Parent = this.addProducts;
-            this.addProducts.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
-            this.addProducts.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.addProducts.ForeColor = System.Drawing.Color.White;
-            this.addProducts.HoverState.Parent = this.addProducts;
-            this.addProducts.Image = ((System.Drawing.Image)(resources.GetObject("addProducts.Image")));
-            this.addProducts.ImageSize = new System.Drawing.Size(30, 30);
-            this.addProducts.Location = new System.Drawing.Point(23, 231);
-            this.addProducts.Name = "addProducts";
-            this.addProducts.ShadowDecoration.Parent = this.addProducts;
-            this.addProducts.Size = new System.Drawing.Size(60, 50);
-            this.addProducts.TabIndex = 5;
-            this.addProducts.UseTransparentBackground = true;
-            this.addProducts.CheckedChanged += new System.EventHandler(this.addProducts_CheckedChanged);
-            this.addProducts.Click += new System.EventHandler(this.addProducts_Click);
-            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -421,7 +423,7 @@ namespace cacharSystem
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private System.Windows.Forms.Panel panelContainer;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button exit;
         private Guna.UI2.WinForms.Guna2Button recipt;
         private Guna.UI2.WinForms.Guna2Button prop;
         private System.Windows.Forms.PictureBox pictureBox2;

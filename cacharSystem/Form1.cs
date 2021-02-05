@@ -138,5 +138,19 @@ namespace cacharSystem
 
             genrateProductListView();
         }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void addCashier_Click(object sender, EventArgs e)
+        {
+            panalContainer.Controls.Clear();
+            registercashierUC uc = new registercashierUC();
+            uc.BringToFront();
+            uc.Dock = DockStyle.Fill;
+            panalContainer.Controls.Add(uc);
+        }
     }
 }

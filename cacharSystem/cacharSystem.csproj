@@ -67,9 +67,16 @@
     <Compile Include="homeUserControl.Designer.cs">
       <DependentUpon>homeUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\cashier.cs" />
     <Compile Include="Model\product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registercashierUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="registercashierUC.Designer.cs">
+      <DependentUpon>registercashierUC.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="addProduct.resx">
       <DependentUpon>addProduct.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +95,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="registercashierUC.resx">
+      <DependentUpon>registercashierUC.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
