@@ -52,6 +52,7 @@ namespace cacharSystem
 
         private void item_delete_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("deleted item id" + productId);
             //delete by productId
         }
 

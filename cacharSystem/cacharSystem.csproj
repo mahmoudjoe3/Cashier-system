@@ -61,11 +61,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="homeUserControl.cs">
+    <Compile Include="orderUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="homeUserControl.Designer.cs">
-      <DependentUpon>homeUserControl.cs</DependentUpon>
+    <Compile Include="orderUC.Designer.cs">
+      <DependentUpon>orderUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productItemListUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="productItemListUC.Designer.cs">
+      <DependentUpon>productItemListUC.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\cashier.cs" />
     <Compile Include="Model\product.cs" />
@@ -89,8 +95,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="homeUserControl.resx">
-      <DependentUpon>homeUserControl.cs</DependentUpon>
+    <EmbeddedResource Include="orderUC.resx">
+      <DependentUpon>orderUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productItemListUC.resx">
+      <DependentUpon>productItemListUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -38,21 +38,21 @@ namespace cacharSystem
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.prop_w_sun = new System.Windows.Forms.Label();
+            this.prop_w_sat = new System.Windows.Forms.Label();
+            this.prop_w_fri = new System.Windows.Forms.Label();
+            this.prop_w_thu = new System.Windows.Forms.Label();
+            this.prop_w_wed = new System.Windows.Forms.Label();
+            this.prop_w_tue = new System.Windows.Forms.Label();
+            this.prop_w_mon = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.prop = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label16 = new System.Windows.Forms.Label();
+            this.prop_num_of_selled_product_per_month = new System.Windows.Forms.Label();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.label17 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label18 = new System.Windows.Forms.Label();
+            this.prop_monthly_income = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label28 = new System.Windows.Forms.Label();
@@ -68,18 +68,18 @@ namespace cacharSystem
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.guna2VProgressBar9 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar10 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar11 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar12 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar5 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar6 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar7 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar8 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar3 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar4 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar2 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar1 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_dec = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_nov = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_oct = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_sep = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_aug = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_jul = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_jun = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_may = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_apr = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_mar = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_feb = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.prop_bar_m_jan = new Guna.UI2.WinForms.Guna2VProgressBar();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2CustomGradientPanel3.SuspendLayout();
@@ -176,82 +176,82 @@ namespace cacharSystem
             this.label8.TabIndex = 5;
             this.label8.Text = "Fri";
             // 
-            // label9
+            // prop_w_sun
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label9.Location = new System.Drawing.Point(501, 80);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(16, 19);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "-";
+            this.prop_w_sun.AutoSize = true;
+            this.prop_w_sun.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.prop_w_sun.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prop_w_sun.Location = new System.Drawing.Point(486, 80);
+            this.prop_w_sun.Name = "prop_w_sun";
+            this.prop_w_sun.Size = new System.Drawing.Size(44, 19);
+            this.prop_w_sun.TabIndex = 14;
+            this.prop_w_sun.Text = "-----";
             // 
-            // label10
+            // prop_w_sat
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label10.Location = new System.Drawing.Point(430, 80);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(16, 19);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "-";
+            this.prop_w_sat.AutoSize = true;
+            this.prop_w_sat.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.prop_w_sat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prop_w_sat.Location = new System.Drawing.Point(416, 80);
+            this.prop_w_sat.Name = "prop_w_sat";
+            this.prop_w_sat.Size = new System.Drawing.Size(49, 19);
+            this.prop_w_sat.TabIndex = 13;
+            this.prop_w_sat.Text = "1200";
             // 
-            // label11
+            // prop_w_fri
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label11.Location = new System.Drawing.Point(364, 80);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(16, 19);
-            this.label11.TabIndex = 12;
-            this.label11.Text = "-";
+            this.prop_w_fri.AutoSize = true;
+            this.prop_w_fri.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.prop_w_fri.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prop_w_fri.Location = new System.Drawing.Point(353, 80);
+            this.prop_w_fri.Name = "prop_w_fri";
+            this.prop_w_fri.Size = new System.Drawing.Size(39, 19);
+            this.prop_w_fri.TabIndex = 12;
+            this.prop_w_fri.Text = "300";
             // 
-            // label12
+            // prop_w_thu
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.label12.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label12.Location = new System.Drawing.Point(281, 80);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(39, 19);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "450";
+            this.prop_w_thu.AutoSize = true;
+            this.prop_w_thu.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.prop_w_thu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prop_w_thu.Location = new System.Drawing.Point(281, 80);
+            this.prop_w_thu.Name = "prop_w_thu";
+            this.prop_w_thu.Size = new System.Drawing.Size(39, 19);
+            this.prop_w_thu.TabIndex = 11;
+            this.prop_w_thu.Text = "450";
             // 
-            // label13
+            // prop_w_wed
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label13.Location = new System.Drawing.Point(201, 80);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(39, 19);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "400";
+            this.prop_w_wed.AutoSize = true;
+            this.prop_w_wed.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.prop_w_wed.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prop_w_wed.Location = new System.Drawing.Point(201, 80);
+            this.prop_w_wed.Name = "prop_w_wed";
+            this.prop_w_wed.Size = new System.Drawing.Size(39, 19);
+            this.prop_w_wed.TabIndex = 10;
+            this.prop_w_wed.Text = "400";
             // 
-            // label14
+            // prop_w_tue
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label14.Location = new System.Drawing.Point(125, 80);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(39, 19);
-            this.label14.TabIndex = 9;
-            this.label14.Text = "505";
+            this.prop_w_tue.AutoSize = true;
+            this.prop_w_tue.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.prop_w_tue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prop_w_tue.Location = new System.Drawing.Point(125, 80);
+            this.prop_w_tue.Name = "prop_w_tue";
+            this.prop_w_tue.Size = new System.Drawing.Size(44, 19);
+            this.prop_w_tue.TabIndex = 9;
+            this.prop_w_tue.Text = "-----";
             // 
-            // label15
+            // prop_w_mon
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label15.Location = new System.Drawing.Point(45, 80);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(39, 19);
-            this.label15.TabIndex = 8;
-            this.label15.Text = "340";
+            this.prop_w_mon.AutoSize = true;
+            this.prop_w_mon.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.prop_w_mon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prop_w_mon.Location = new System.Drawing.Point(45, 80);
+            this.prop_w_mon.Name = "prop_w_mon";
+            this.prop_w_mon.Size = new System.Drawing.Size(44, 19);
+            this.prop_w_mon.TabIndex = 8;
+            this.prop_w_mon.Text = "-----";
             // 
             // pictureBox1
             // 
@@ -288,7 +288,7 @@ namespace cacharSystem
             // guna2CustomGradientPanel3
             // 
             this.guna2CustomGradientPanel3.BorderRadius = 15;
-            this.guna2CustomGradientPanel3.Controls.Add(this.label16);
+            this.guna2CustomGradientPanel3.Controls.Add(this.prop_num_of_selled_product_per_month);
             this.guna2CustomGradientPanel3.Controls.Add(this.prop);
             this.guna2CustomGradientPanel3.FillColor = System.Drawing.Color.WhiteSmoke;
             this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.WhiteSmoke;
@@ -300,17 +300,17 @@ namespace cacharSystem
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(95, 108);
             this.guna2CustomGradientPanel3.TabIndex = 17;
             // 
-            // label16
+            // prop_num_of_selled_product_per_month
             // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label16.Location = new System.Drawing.Point(32, 77);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(39, 19);
-            this.label16.TabIndex = 18;
-            this.label16.Text = "523";
+            this.prop_num_of_selled_product_per_month.AutoSize = true;
+            this.prop_num_of_selled_product_per_month.BackColor = System.Drawing.Color.Transparent;
+            this.prop_num_of_selled_product_per_month.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.prop_num_of_selled_product_per_month.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prop_num_of_selled_product_per_month.Location = new System.Drawing.Point(32, 77);
+            this.prop_num_of_selled_product_per_month.Name = "prop_num_of_selled_product_per_month";
+            this.prop_num_of_selled_product_per_month.Size = new System.Drawing.Size(39, 19);
+            this.prop_num_of_selled_product_per_month.TabIndex = 18;
+            this.prop_num_of_selled_product_per_month.Text = "523";
             // 
             // guna2Separator1
             // 
@@ -333,7 +333,7 @@ namespace cacharSystem
             // guna2CustomGradientPanel1
             // 
             this.guna2CustomGradientPanel1.BorderRadius = 15;
-            this.guna2CustomGradientPanel1.Controls.Add(this.label18);
+            this.guna2CustomGradientPanel1.Controls.Add(this.prop_monthly_income);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button1);
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.WhiteSmoke;
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.WhiteSmoke;
@@ -345,17 +345,17 @@ namespace cacharSystem
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(95, 108);
             this.guna2CustomGradientPanel1.TabIndex = 19;
             // 
-            // label18
+            // prop_monthly_income
             // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label18.Location = new System.Drawing.Point(25, 77);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(55, 19);
-            this.label18.TabIndex = 18;
-            this.label18.Text = "52,5K";
+            this.prop_monthly_income.AutoSize = true;
+            this.prop_monthly_income.BackColor = System.Drawing.Color.Transparent;
+            this.prop_monthly_income.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.prop_monthly_income.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prop_monthly_income.Location = new System.Drawing.Point(25, 77);
+            this.prop_monthly_income.Name = "prop_monthly_income";
+            this.prop_monthly_income.Size = new System.Drawing.Size(55, 19);
+            this.prop_monthly_income.TabIndex = 18;
+            this.prop_monthly_income.Text = "52,5K";
             // 
             // guna2Button1
             // 
@@ -398,18 +398,18 @@ namespace cacharSystem
             this.guna2CustomGradientPanel2.Controls.Add(this.label21);
             this.guna2CustomGradientPanel2.Controls.Add(this.label20);
             this.guna2CustomGradientPanel2.Controls.Add(this.label19);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar9);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar10);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar11);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar12);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar5);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar6);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar7);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar8);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar3);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar4);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar2);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2VProgressBar1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_dec);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_nov);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_oct);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_sep);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_aug);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_jul);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_jun);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_may);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_apr);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_mar);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_feb);
+            this.guna2CustomGradientPanel2.Controls.Add(this.prop_bar_m_jan);
             this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.WhiteSmoke;
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.WhiteSmoke;
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.WhiteSmoke;
@@ -576,197 +576,186 @@ namespace cacharSystem
             this.label19.TabIndex = 58;
             this.label19.Text = "Year Summary";
             // 
-            // guna2VProgressBar9
+            // prop_bar_m_dec
             // 
-            this.guna2VProgressBar9.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar9.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar9.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar9.Location = new System.Drawing.Point(321, 80);
-            this.guna2VProgressBar9.Name = "guna2VProgressBar9";
-            this.guna2VProgressBar9.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar9.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar9.ShadowDecoration.Parent = this.guna2VProgressBar9;
-            this.guna2VProgressBar9.ShowPercentage = true;
-            this.guna2VProgressBar9.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar9.TabIndex = 57;
-            this.guna2VProgressBar9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar9.Value = 50;
+            this.prop_bar_m_dec.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_dec.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_dec.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_dec.Location = new System.Drawing.Point(321, 80);
+            this.prop_bar_m_dec.Name = "prop_bar_m_dec";
+            this.prop_bar_m_dec.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_dec.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_dec.ShadowDecoration.Parent = this.prop_bar_m_dec;
+            this.prop_bar_m_dec.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_dec.TabIndex = 57;
+            this.prop_bar_m_dec.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_dec.Value = 20;
             // 
-            // guna2VProgressBar10
+            // prop_bar_m_nov
             // 
-            this.guna2VProgressBar10.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar10.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar10.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar10.Location = new System.Drawing.Point(293, 80);
-            this.guna2VProgressBar10.Name = "guna2VProgressBar10";
-            this.guna2VProgressBar10.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar10.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar10.ShadowDecoration.Parent = this.guna2VProgressBar10;
-            this.guna2VProgressBar10.ShowPercentage = true;
-            this.guna2VProgressBar10.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar10.TabIndex = 56;
-            this.guna2VProgressBar10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar10.Value = 50;
+            this.prop_bar_m_nov.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_nov.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_nov.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_nov.Location = new System.Drawing.Point(293, 80);
+            this.prop_bar_m_nov.Name = "prop_bar_m_nov";
+            this.prop_bar_m_nov.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_nov.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_nov.ShadowDecoration.Parent = this.prop_bar_m_nov;
+            this.prop_bar_m_nov.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_nov.TabIndex = 56;
+            this.prop_bar_m_nov.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_nov.Value = 80;
             // 
-            // guna2VProgressBar11
+            // prop_bar_m_oct
             // 
-            this.guna2VProgressBar11.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar11.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar11.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar11.Location = new System.Drawing.Point(265, 80);
-            this.guna2VProgressBar11.Name = "guna2VProgressBar11";
-            this.guna2VProgressBar11.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar11.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar11.ShadowDecoration.Parent = this.guna2VProgressBar11;
-            this.guna2VProgressBar11.ShowPercentage = true;
-            this.guna2VProgressBar11.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar11.TabIndex = 55;
-            this.guna2VProgressBar11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar11.Value = 50;
+            this.prop_bar_m_oct.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_oct.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_oct.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_oct.Location = new System.Drawing.Point(265, 80);
+            this.prop_bar_m_oct.Name = "prop_bar_m_oct";
+            this.prop_bar_m_oct.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_oct.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_oct.ShadowDecoration.Parent = this.prop_bar_m_oct;
+            this.prop_bar_m_oct.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_oct.TabIndex = 55;
+            this.prop_bar_m_oct.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_oct.Value = 49;
             // 
-            // guna2VProgressBar12
+            // prop_bar_m_sep
             // 
-            this.guna2VProgressBar12.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar12.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar12.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar12.Location = new System.Drawing.Point(237, 80);
-            this.guna2VProgressBar12.Name = "guna2VProgressBar12";
-            this.guna2VProgressBar12.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar12.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar12.ShadowDecoration.Parent = this.guna2VProgressBar12;
-            this.guna2VProgressBar12.ShowPercentage = true;
-            this.guna2VProgressBar12.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar12.TabIndex = 54;
-            this.guna2VProgressBar12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar12.Value = 50;
+            this.prop_bar_m_sep.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_sep.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_sep.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_sep.Location = new System.Drawing.Point(237, 80);
+            this.prop_bar_m_sep.Name = "prop_bar_m_sep";
+            this.prop_bar_m_sep.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_sep.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_sep.ShadowDecoration.Parent = this.prop_bar_m_sep;
+            this.prop_bar_m_sep.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_sep.TabIndex = 54;
+            this.prop_bar_m_sep.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_sep.Value = 100;
             // 
-            // guna2VProgressBar5
+            // prop_bar_m_aug
             // 
-            this.guna2VProgressBar5.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar5.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar5.Location = new System.Drawing.Point(209, 80);
-            this.guna2VProgressBar5.Name = "guna2VProgressBar5";
-            this.guna2VProgressBar5.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar5.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar5.ShadowDecoration.Parent = this.guna2VProgressBar5;
-            this.guna2VProgressBar5.ShowPercentage = true;
-            this.guna2VProgressBar5.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar5.TabIndex = 53;
-            this.guna2VProgressBar5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar5.Value = 50;
+            this.prop_bar_m_aug.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_aug.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_aug.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_aug.Location = new System.Drawing.Point(209, 80);
+            this.prop_bar_m_aug.Name = "prop_bar_m_aug";
+            this.prop_bar_m_aug.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_aug.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_aug.ShadowDecoration.Parent = this.prop_bar_m_aug;
+            this.prop_bar_m_aug.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_aug.TabIndex = 53;
+            this.prop_bar_m_aug.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_aug.Value = 20;
             // 
-            // guna2VProgressBar6
+            // prop_bar_m_jul
             // 
-            this.guna2VProgressBar6.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar6.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar6.Location = new System.Drawing.Point(181, 80);
-            this.guna2VProgressBar6.Name = "guna2VProgressBar6";
-            this.guna2VProgressBar6.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar6.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar6.ShadowDecoration.Parent = this.guna2VProgressBar6;
-            this.guna2VProgressBar6.ShowPercentage = true;
-            this.guna2VProgressBar6.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar6.TabIndex = 52;
-            this.guna2VProgressBar6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar6.Value = 50;
+            this.prop_bar_m_jul.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_jul.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_jul.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_jul.Location = new System.Drawing.Point(181, 80);
+            this.prop_bar_m_jul.Name = "prop_bar_m_jul";
+            this.prop_bar_m_jul.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_jul.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_jul.ShadowDecoration.Parent = this.prop_bar_m_jul;
+            this.prop_bar_m_jul.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_jul.TabIndex = 52;
+            this.prop_bar_m_jul.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_jul.Value = 55;
             // 
-            // guna2VProgressBar7
+            // prop_bar_m_jun
             // 
-            this.guna2VProgressBar7.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar7.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar7.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar7.Location = new System.Drawing.Point(153, 80);
-            this.guna2VProgressBar7.Name = "guna2VProgressBar7";
-            this.guna2VProgressBar7.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar7.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar7.ShadowDecoration.Parent = this.guna2VProgressBar7;
-            this.guna2VProgressBar7.ShowPercentage = true;
-            this.guna2VProgressBar7.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar7.TabIndex = 51;
-            this.guna2VProgressBar7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar7.Value = 50;
+            this.prop_bar_m_jun.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_jun.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_jun.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_jun.Location = new System.Drawing.Point(153, 80);
+            this.prop_bar_m_jun.Name = "prop_bar_m_jun";
+            this.prop_bar_m_jun.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_jun.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_jun.ShadowDecoration.Parent = this.prop_bar_m_jun;
+            this.prop_bar_m_jun.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_jun.TabIndex = 51;
+            this.prop_bar_m_jun.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_jun.Value = 40;
             // 
-            // guna2VProgressBar8
+            // prop_bar_m_may
             // 
-            this.guna2VProgressBar8.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar8.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar8.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar8.Location = new System.Drawing.Point(125, 80);
-            this.guna2VProgressBar8.Name = "guna2VProgressBar8";
-            this.guna2VProgressBar8.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar8.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar8.ShadowDecoration.Parent = this.guna2VProgressBar8;
-            this.guna2VProgressBar8.ShowPercentage = true;
-            this.guna2VProgressBar8.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar8.TabIndex = 50;
-            this.guna2VProgressBar8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar8.Value = 50;
+            this.prop_bar_m_may.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_may.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_may.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_may.Location = new System.Drawing.Point(125, 80);
+            this.prop_bar_m_may.Name = "prop_bar_m_may";
+            this.prop_bar_m_may.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_may.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_may.ShadowDecoration.Parent = this.prop_bar_m_may;
+            this.prop_bar_m_may.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_may.TabIndex = 50;
+            this.prop_bar_m_may.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_may.Value = 60;
             // 
-            // guna2VProgressBar3
+            // prop_bar_m_apr
             // 
-            this.guna2VProgressBar3.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar3.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar3.Location = new System.Drawing.Point(97, 80);
-            this.guna2VProgressBar3.Name = "guna2VProgressBar3";
-            this.guna2VProgressBar3.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar3.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar3.ShadowDecoration.Parent = this.guna2VProgressBar3;
-            this.guna2VProgressBar3.ShowPercentage = true;
-            this.guna2VProgressBar3.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar3.TabIndex = 49;
-            this.guna2VProgressBar3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar3.Value = 50;
+            this.prop_bar_m_apr.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_apr.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_apr.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_apr.Location = new System.Drawing.Point(97, 80);
+            this.prop_bar_m_apr.Name = "prop_bar_m_apr";
+            this.prop_bar_m_apr.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_apr.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_apr.ShadowDecoration.Parent = this.prop_bar_m_apr;
+            this.prop_bar_m_apr.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_apr.TabIndex = 49;
+            this.prop_bar_m_apr.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_apr.Value = 80;
             // 
-            // guna2VProgressBar4
+            // prop_bar_m_mar
             // 
-            this.guna2VProgressBar4.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar4.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar4.Location = new System.Drawing.Point(69, 80);
-            this.guna2VProgressBar4.Name = "guna2VProgressBar4";
-            this.guna2VProgressBar4.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar4.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar4.ShadowDecoration.Parent = this.guna2VProgressBar4;
-            this.guna2VProgressBar4.ShowPercentage = true;
-            this.guna2VProgressBar4.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar4.TabIndex = 48;
-            this.guna2VProgressBar4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar4.Value = 50;
+            this.prop_bar_m_mar.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_mar.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_mar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_mar.Location = new System.Drawing.Point(69, 80);
+            this.prop_bar_m_mar.Name = "prop_bar_m_mar";
+            this.prop_bar_m_mar.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_mar.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_mar.ShadowDecoration.Parent = this.prop_bar_m_mar;
+            this.prop_bar_m_mar.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_mar.TabIndex = 48;
+            this.prop_bar_m_mar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_mar.Value = 70;
             // 
-            // guna2VProgressBar2
+            // prop_bar_m_feb
             // 
-            this.guna2VProgressBar2.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar2.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar2.Location = new System.Drawing.Point(41, 80);
-            this.guna2VProgressBar2.Name = "guna2VProgressBar2";
-            this.guna2VProgressBar2.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar2.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar2.ShadowDecoration.Parent = this.guna2VProgressBar2;
-            this.guna2VProgressBar2.ShowPercentage = true;
-            this.guna2VProgressBar2.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar2.TabIndex = 47;
-            this.guna2VProgressBar2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar2.Value = 50;
+            this.prop_bar_m_feb.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_feb.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_feb.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_feb.Location = new System.Drawing.Point(41, 80);
+            this.prop_bar_m_feb.Name = "prop_bar_m_feb";
+            this.prop_bar_m_feb.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_feb.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_feb.ShadowDecoration.Parent = this.prop_bar_m_feb;
+            this.prop_bar_m_feb.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_feb.TabIndex = 47;
+            this.prop_bar_m_feb.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_feb.Value = 50;
             // 
-            // guna2VProgressBar1
+            // prop_bar_m_jan
             // 
-            this.guna2VProgressBar1.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar1.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2VProgressBar1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2VProgressBar1.Location = new System.Drawing.Point(13, 80);
-            this.guna2VProgressBar1.Name = "guna2VProgressBar1";
-            this.guna2VProgressBar1.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar1.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2VProgressBar1.ShadowDecoration.Parent = this.guna2VProgressBar1;
-            this.guna2VProgressBar1.ShowPercentage = true;
-            this.guna2VProgressBar1.Size = new System.Drawing.Size(12, 170);
-            this.guna2VProgressBar1.TabIndex = 46;
-            this.guna2VProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar1.Value = 50;
+            this.prop_bar_m_jan.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_jan.Font = new System.Drawing.Font("Arial Narrow", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prop_bar_m_jan.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.prop_bar_m_jan.Location = new System.Drawing.Point(13, 80);
+            this.prop_bar_m_jan.Name = "prop_bar_m_jan";
+            this.prop_bar_m_jan.ProgressBrushMode = Guna.UI2.WinForms.Enums.BrushMode.Solid;
+            this.prop_bar_m_jan.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_jan.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.prop_bar_m_jan.ShadowDecoration.Parent = this.prop_bar_m_jan;
+            this.prop_bar_m_jan.Size = new System.Drawing.Size(12, 170);
+            this.prop_bar_m_jan.TabIndex = 46;
+            this.prop_bar_m_jan.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.prop_bar_m_jan.Value = 10;
             // 
             // pictureBox2
             // 
@@ -789,13 +778,13 @@ namespace cacharSystem
             this.Controls.Add(this.guna2Separator1);
             this.Controls.Add(this.guna2CustomGradientPanel3);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.prop_w_sun);
+            this.Controls.Add(this.prop_w_sat);
+            this.Controls.Add(this.prop_w_fri);
+            this.Controls.Add(this.prop_w_thu);
+            this.Controls.Add(this.prop_w_wed);
+            this.Controls.Add(this.prop_w_tue);
+            this.Controls.Add(this.prop_w_mon);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
@@ -830,21 +819,21 @@ namespace cacharSystem
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label prop_w_sun;
+        private System.Windows.Forms.Label prop_w_sat;
+        private System.Windows.Forms.Label prop_w_fri;
+        private System.Windows.Forms.Label prop_w_thu;
+        private System.Windows.Forms.Label prop_w_wed;
+        private System.Windows.Forms.Label prop_w_tue;
+        private System.Windows.Forms.Label prop_w_mon;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2Button prop;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label prop_num_of_selled_product_per_month;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private System.Windows.Forms.Label label17;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label prop_monthly_income;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -861,17 +850,17 @@ namespace cacharSystem
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar9;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar10;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar11;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar12;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar5;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar6;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar7;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar8;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar3;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar4;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar2;
-        private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar1;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_dec;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_nov;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_oct;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_sep;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_aug;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_jul;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_jun;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_may;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_apr;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_mar;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_feb;
+        private Guna.UI2.WinForms.Guna2VProgressBar prop_bar_m_jan;
     }
 }

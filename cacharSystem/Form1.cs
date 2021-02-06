@@ -66,10 +66,10 @@ namespace cacharSystem
         {
             panalContainer.Controls.Clear();
             products.Add(new product(1, "tit", 3, 40, 30, "inrfrnfj"));
-            products.Add(new product(1, "tit1", 3, 20, 30, "inrfrnfj"));
-            products.Add(new product(1, "tit2", 3, 30, 310, "inrfrnfj"));
-            products.Add(new product(1, "tit3", 3, 270, 130, "inrfrnfj"));
-            products.Add(new product(1, "tit3", 3, 403, 20, "inrfrnfj"));
+            products.Add(new product(2, "tit1", 3, 20, 30, "inrfrnfj"));
+            products.Add(new product(3, "tit2", 3, 30, 310, "inrfrnfj"));
+            products.Add(new product(4, "tit3", 3, 270, 130, "inrfrnfj"));
+            products.Add(new product(5, "tit3", 3, 403, 20, "inrfrnfj"));
             products.Add(new product(1, "tit4", 3, 4032, 40, "inrfrnfj"));
             products.Add(new product(1, "tit5", 3, 403, 30, "inrfrnfj"));
             products.Add(new product(1, "tit6", 3, 40, 30, "inrfrnfj"));
@@ -166,6 +166,36 @@ namespace cacharSystem
             uc.BringToFront();
             uc.Dock = DockStyle.Fill;
             panalContainer.Controls.Add(uc);
+        }
+
+        private void addordersControl()
+        {
+
+            orderUC uc = new orderUC();
+            uc.BringToFront();
+            /*uc.setTitle(p.title);
+            //uc_.setImage(p.image);
+            uc.setQuantity(p.quantity);
+            uc.setSellPrice(p.sellPrice);
+            uc.setFactoryPrice(p.factoryPrice);
+            uc.setId(p.id);*/
+            int uc_count = panalContainer.Controls.Count;
+            if (uc_count != 0)
+            {
+                uc.Location = new Point(uc.Location.X
+                    , uc.Location.Y + (uc_count * uc.Height));
+            }   
+            panalContainer.Controls.Add(uc);
+        }
+
+        private void recipt_Click(object sender, EventArgs e)
+        {
+            panalContainer.Controls.Clear();
+            for (int i=0; i<12; i++)
+            {
+                addordersControl();
+            }
+
         }
     }
 }

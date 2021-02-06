@@ -196,6 +196,7 @@ namespace cacharSystem
             this.recipt.TabIndex = 2;
             this.recipt.UseTransparentBackground = true;
             this.recipt.CheckedChanged += new System.EventHandler(this.addProducts_CheckedChanged);
+            this.recipt.Click += new System.EventHandler(this.recipt_Click);
             // 
             // prop
             // 
