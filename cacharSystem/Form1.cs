@@ -20,6 +20,12 @@ namespace cacharSystem
         {
             InitializeComponent();
             generateProductList();
+            date.Text=getDate();
+        }
+
+        private String getDate()
+        {
+            return DateTime.Now.ToString("ddd MMM,dd,yyyy");
         }
 
         private void addProducts_CheckedChanged(object sender, EventArgs e)
@@ -148,6 +154,15 @@ namespace cacharSystem
         {
             panalContainer.Controls.Clear();
             registercashierUC uc = new registercashierUC();
+            uc.BringToFront();
+            uc.Dock = DockStyle.Fill;
+            panalContainer.Controls.Add(uc);
+        }
+
+        private void prop_Click(object sender, EventArgs e)
+        {
+            panalContainer.Controls.Clear();
+            propUC uc = new propUC();
             uc.BringToFront();
             uc.Dock = DockStyle.Fill;
             panalContainer.Controls.Add(uc);

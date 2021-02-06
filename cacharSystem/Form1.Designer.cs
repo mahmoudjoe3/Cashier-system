@@ -51,6 +51,7 @@ namespace cacharSystem
             this.search = new System.Windows.Forms.TextBox();
             this.panalContainer = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.date = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -221,6 +222,7 @@ namespace cacharSystem
             this.prop.TabIndex = 1;
             this.prop.UseTransparentBackground = true;
             this.prop.CheckedChanged += new System.EventHandler(this.addProducts_CheckedChanged);
+            this.prop.Click += new System.EventHandler(this.prop_Click);
             // 
             // pictureBox2
             // 
@@ -324,6 +326,7 @@ namespace cacharSystem
             // guna2CustomGradientPanel2
             // 
             this.guna2CustomGradientPanel2.BorderRadius = 18;
+            this.guna2CustomGradientPanel2.Controls.Add(this.date);
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2CustomGradientPanel4);
             this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
@@ -391,6 +394,17 @@ namespace cacharSystem
             this.guna2Elipse1.BorderRadius = 30;
             this.guna2Elipse1.TargetControl = this;
             // 
+            // date
+            // 
+            this.date.AutoSize = true;
+            this.date.BackColor = System.Drawing.Color.Transparent;
+            this.date.ForeColor = System.Drawing.Color.White;
+            this.date.Location = new System.Drawing.Point(226, 4);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(129, 23);
+            this.date.TabIndex = 0;
+            this.date.Text = "2020, JON, 2";
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -412,6 +426,7 @@ namespace cacharSystem
             this.guna2CustomGradientPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
+            this.guna2CustomGradientPanel2.PerformLayout();
             this.guna2CustomGradientPanel4.ResumeLayout(false);
             this.guna2CustomGradientPanel4.PerformLayout();
             this.ResumeLayout(false);
@@ -440,6 +455,7 @@ namespace cacharSystem
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button addCashier;
         private Guna.UI2.WinForms.Guna2Button addProducts;
+        private System.Windows.Forms.Label date;
     }
 }
 
