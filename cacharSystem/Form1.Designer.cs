@@ -46,12 +46,16 @@ namespace cacharSystem
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.date = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.searchBTN = new Guna.UI2.WinForms.Guna2Button();
             this.search = new System.Windows.Forms.TextBox();
-            this.panalContainer = new System.Windows.Forms.Panel();
+            this.productListContainer = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.date = new System.Windows.Forms.Label();
+            this.addProductContainer = new System.Windows.Forms.Panel();
+            this.orderListContainer = new System.Windows.Forms.Panel();
+            this.propContainer = new System.Windows.Forms.Panel();
+            this.AddCashierContainer = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -150,20 +154,20 @@ namespace cacharSystem
             // exit
             // 
             this.exit.BackColor = System.Drawing.Color.Transparent;
-            this.exit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
+            this.exit.BorderColor = System.Drawing.Color.Red;
             this.exit.BorderRadius = 24;
             this.exit.BorderThickness = 1;
             this.exit.CheckedState.BorderColor = System.Drawing.Color.White;
             this.exit.CheckedState.FillColor = System.Drawing.Color.White;
-            this.exit.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.CheckedState.Image")));
+            this.exit.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("exit.CheckedState.Image")));
             this.exit.CheckedState.Parent = this.exit;
             this.exit.CustomImages.Parent = this.exit;
-            this.exit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
+            this.exit.FillColor = System.Drawing.Color.Red;
             this.exit.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.exit.ForeColor = System.Drawing.Color.White;
             this.exit.HoverState.Parent = this.exit;
             this.exit.Image = ((System.Drawing.Image)(resources.GetObject("exit.Image")));
-            this.exit.Location = new System.Drawing.Point(13, 479);
+            this.exit.Location = new System.Drawing.Point(14, 491);
             this.exit.Name = "exit";
             this.exit.ShadowDecoration.Parent = this.exit;
             this.exit.Size = new System.Drawing.Size(60, 50);
@@ -276,9 +280,13 @@ namespace cacharSystem
             // 
             // panelContainer
             // 
+            this.panelContainer.Controls.Add(this.AddCashierContainer);
+            this.panelContainer.Controls.Add(this.propContainer);
+            this.panelContainer.Controls.Add(this.orderListContainer);
+            this.panelContainer.Controls.Add(this.addProductContainer);
             this.panelContainer.Controls.Add(this.guna2CustomGradientPanel3);
             this.panelContainer.Controls.Add(this.guna2CustomGradientPanel2);
-            this.panelContainer.Controls.Add(this.panalContainer);
+            this.panelContainer.Controls.Add(this.productListContainer);
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(102, 0);
             this.panelContainer.Name = "panelContainer";
@@ -339,6 +347,17 @@ namespace cacharSystem
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(376, 67);
             this.guna2CustomGradientPanel2.TabIndex = 1;
             // 
+            // date
+            // 
+            this.date.AutoSize = true;
+            this.date.BackColor = System.Drawing.Color.Transparent;
+            this.date.ForeColor = System.Drawing.Color.White;
+            this.date.Location = new System.Drawing.Point(226, 4);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(129, 23);
+            this.date.TabIndex = 0;
+            this.date.Text = "2020, JON, 2";
+            // 
             // guna2CustomGradientPanel4
             // 
             this.guna2CustomGradientPanel4.BackColor = System.Drawing.Color.Transparent;
@@ -382,29 +401,55 @@ namespace cacharSystem
             this.search.TextChanged += new System.EventHandler(this.search_TextChanged);
             this.search.MouseLeave += new System.EventHandler(this.search_MouseLeave);
             // 
-            // panalContainer
+            // productListContainer
             // 
-            this.panalContainer.AutoScroll = true;
-            this.panalContainer.Location = new System.Drawing.Point(17, 80);
-            this.panalContainer.Name = "panalContainer";
-            this.panalContainer.Size = new System.Drawing.Size(600, 474);
-            this.panalContainer.TabIndex = 0;
+            this.productListContainer.AutoScroll = true;
+            this.productListContainer.Location = new System.Drawing.Point(17, 80);
+            this.productListContainer.Name = "productListContainer";
+            this.productListContainer.Size = new System.Drawing.Size(600, 474);
+            this.productListContainer.TabIndex = 0;
+            this.productListContainer.Visible = false;
             // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.BorderRadius = 30;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // date
+            // addProductContainer
             // 
-            this.date.AutoSize = true;
-            this.date.BackColor = System.Drawing.Color.Transparent;
-            this.date.ForeColor = System.Drawing.Color.White;
-            this.date.Location = new System.Drawing.Point(226, 4);
-            this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(129, 23);
-            this.date.TabIndex = 0;
-            this.date.Text = "2020, JON, 2";
+            this.addProductContainer.AutoScroll = true;
+            this.addProductContainer.Location = new System.Drawing.Point(17, 80);
+            this.addProductContainer.Name = "addProductContainer";
+            this.addProductContainer.Size = new System.Drawing.Size(600, 474);
+            this.addProductContainer.TabIndex = 1;
+            this.addProductContainer.Visible = false;
+            // 
+            // orderListContainer
+            // 
+            this.orderListContainer.AutoScroll = true;
+            this.orderListContainer.Location = new System.Drawing.Point(17, 80);
+            this.orderListContainer.Name = "orderListContainer";
+            this.orderListContainer.Size = new System.Drawing.Size(600, 474);
+            this.orderListContainer.TabIndex = 2;
+            this.orderListContainer.Visible = false;
+            // 
+            // propContainer
+            // 
+            this.propContainer.AutoScroll = true;
+            this.propContainer.Location = new System.Drawing.Point(17, 80);
+            this.propContainer.Name = "propContainer";
+            this.propContainer.Size = new System.Drawing.Size(600, 474);
+            this.propContainer.TabIndex = 3;
+            this.propContainer.Visible = false;
+            // 
+            // AddCashierContainer
+            // 
+            this.AddCashierContainer.AutoScroll = true;
+            this.AddCashierContainer.Location = new System.Drawing.Point(17, 80);
+            this.AddCashierContainer.Name = "AddCashierContainer";
+            this.AddCashierContainer.Size = new System.Drawing.Size(600, 474);
+            this.AddCashierContainer.TabIndex = 4;
+            this.AddCashierContainer.Visible = false;
             // 
             // Form1
             // 
@@ -446,7 +491,7 @@ namespace cacharSystem
         private Guna.UI2.WinForms.Guna2Button Home;
         private System.Windows.Forms.PictureBox imgSlider;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private System.Windows.Forms.Panel panalContainer;
+        private System.Windows.Forms.Panel productListContainer;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
@@ -457,6 +502,10 @@ namespace cacharSystem
         private Guna.UI2.WinForms.Guna2Button addCashier;
         private Guna.UI2.WinForms.Guna2Button addProducts;
         private System.Windows.Forms.Label date;
+        private System.Windows.Forms.Panel AddCashierContainer;
+        private System.Windows.Forms.Panel propContainer;
+        private System.Windows.Forms.Panel orderListContainer;
+        private System.Windows.Forms.Panel addProductContainer;
     }
 }
 

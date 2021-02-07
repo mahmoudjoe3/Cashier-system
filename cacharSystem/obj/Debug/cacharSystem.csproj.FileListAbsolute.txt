@@ -28,3 +28,4 @@ D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.addProduct
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.registercashierUC.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.propUC.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.orderUC.resources
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.editProductForm.resources

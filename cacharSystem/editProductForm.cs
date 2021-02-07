@@ -11,26 +11,28 @@ using System.Windows.Forms;
 
 namespace cacharSystem
 {
-    public partial class addProductUC : UserControl
+    public partial class editProductForm : Form
     {
-        public addProductUC()
+        product product;
+        public editProductForm()
         {
             InitializeComponent();
+            
         }
 
-        private void addProductUC_Load(object sender, EventArgs e)
+        private void InitUi()
         {
-
+            name.Text = product.title;
+            quantity.Text = product.quantity+"";
+            sPrice.Text = product.sellPrice+"";
+            fPrice.Text = product.factoryPrice+"";
+            image.ImageLocation = product.image;
         }
 
-        private void addProduct_Click(object sender, EventArgs e)
+        internal void setProduct(product p)
         {
-            product product = new product(name.Text.ToString()
-                , int.Parse(quantity.Text.ToString())
-                , float.Parse(sPrice.Text.ToString())
-                , float.Parse(fPrice.Text.ToString())
-                , image.ImageLocation.ToString());
-
+            product = p;
+            InitUi();
         }
 
         private void image_Click(object sender, EventArgs e)
@@ -40,7 +42,7 @@ namespace cacharSystem
             {
                 OpenFileDialog dialog = new OpenFileDialog();
                 dialog.Filter = "jbg files(*.jbg)|*.jbg| PNG files(*.png)|*.png| All Files(*.*)|*.*";
-                if(dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
                     imageLocation = dialog.FileName;
                     image.ImageLocation = imageLocation;
@@ -52,5 +54,13 @@ namespace cacharSystem
             }
         }
 
+        private void addProduct_Click(object sender, EventArgs e)
+        {
+            product product = new product(name.Text.ToString()
+               , int.Parse(quantity.Text.ToString())
+               , float.Parse(sPrice.Text.ToString())
+               , float.Parse(fPrice.Text.ToString())
+               , image.ImageLocation.ToString());
+        }
     }
 }

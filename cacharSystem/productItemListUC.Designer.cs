@@ -37,11 +37,11 @@ namespace cacharSystem
             this.item_sellPrice = new System.Windows.Forms.Label();
             this.item_factoryPrice = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.item_increase = new Guna.UI2.WinForms.Guna2Button();
-            this.item_decrease = new Guna.UI2.WinForms.Guna2Button();
-            this.item_quantity = new System.Windows.Forms.Label();
-            this.item_delete = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.order_edit = new Guna.UI2.WinForms.Guna2Button();
+            this.order_delete = new Guna.UI2.WinForms.Guna2Button();
+            this.item_Quantity = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.item_image)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,7 +83,7 @@ namespace cacharSystem
             this.item_sellPrice.AutoSize = true;
             this.item_sellPrice.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.item_sellPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
-            this.item_sellPrice.Location = new System.Drawing.Point(246, 44);
+            this.item_sellPrice.Location = new System.Drawing.Point(139, 64);
             this.item_sellPrice.Name = "item_sellPrice";
             this.item_sellPrice.Size = new System.Drawing.Size(57, 18);
             this.item_sellPrice.TabIndex = 3;
@@ -94,7 +94,7 @@ namespace cacharSystem
             this.item_factoryPrice.AutoSize = true;
             this.item_factoryPrice.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.item_factoryPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
-            this.item_factoryPrice.Location = new System.Drawing.Point(246, 64);
+            this.item_factoryPrice.Location = new System.Drawing.Point(241, 64);
             this.item_factoryPrice.Name = "item_factoryPrice";
             this.item_factoryPrice.Size = new System.Drawing.Size(57, 18);
             this.item_factoryPrice.TabIndex = 5;
@@ -105,92 +105,83 @@ namespace cacharSystem
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(134, 64);
+            this.label4.Location = new System.Drawing.Point(233, 44);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 18);
             this.label4.TabIndex = 4;
             this.label4.Text = "Factory price";
-            // 
-            // item_increase
-            // 
-            this.item_increase.BackColor = System.Drawing.Color.Transparent;
-            this.item_increase.BorderRadius = 9;
-            this.item_increase.CheckedState.Parent = this.item_increase;
-            this.item_increase.CustomImages.Parent = this.item_increase;
-            this.item_increase.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.item_increase.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.item_increase.ForeColor = System.Drawing.Color.Black;
-            this.item_increase.HoverState.Parent = this.item_increase;
-            this.item_increase.Image = ((System.Drawing.Image)(resources.GetObject("item_increase.Image")));
-            this.item_increase.Location = new System.Drawing.Point(319, 31);
-            this.item_increase.Name = "item_increase";
-            this.item_increase.ShadowDecoration.Parent = this.item_increase;
-            this.item_increase.Size = new System.Drawing.Size(27, 27);
-            this.item_increase.TabIndex = 6;
-            this.item_increase.Click += new System.EventHandler(this.item_increase_Click);
-            // 
-            // item_decrease
-            // 
-            this.item_decrease.BackColor = System.Drawing.Color.Transparent;
-            this.item_decrease.BorderRadius = 9;
-            this.item_decrease.CheckedState.Parent = this.item_decrease;
-            this.item_decrease.CustomImages.Parent = this.item_decrease;
-            this.item_decrease.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.item_decrease.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.item_decrease.ForeColor = System.Drawing.Color.Black;
-            this.item_decrease.HoverState.Parent = this.item_decrease;
-            this.item_decrease.Image = ((System.Drawing.Image)(resources.GetObject("item_decrease.Image")));
-            this.item_decrease.Location = new System.Drawing.Point(376, 31);
-            this.item_decrease.Name = "item_decrease";
-            this.item_decrease.ShadowDecoration.Parent = this.item_decrease;
-            this.item_decrease.Size = new System.Drawing.Size(27, 27);
-            this.item_decrease.TabIndex = 7;
-            this.item_decrease.Click += new System.EventHandler(this.item_decrease_Click);
-            // 
-            // item_quantity
-            // 
-            this.item_quantity.AutoSize = true;
-            this.item_quantity.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold);
-            this.item_quantity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
-            this.item_quantity.Location = new System.Drawing.Point(349, 31);
-            this.item_quantity.Name = "item_quantity";
-            this.item_quantity.Size = new System.Drawing.Size(24, 26);
-            this.item_quantity.TabIndex = 8;
-            this.item_quantity.Text = "4";
-            // 
-            // item_delete
-            // 
-            this.item_delete.BackColor = System.Drawing.Color.Transparent;
-            this.item_delete.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.item_delete.BorderRadius = 8;
-            this.item_delete.CheckedState.Parent = this.item_delete;
-            this.item_delete.CustomImages.Parent = this.item_delete;
-            this.item_delete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.item_delete.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.item_delete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
-            this.item_delete.HoverState.Parent = this.item_delete;
-            this.item_delete.Location = new System.Drawing.Point(417, 29);
-            this.item_delete.Name = "item_delete";
-            this.item_delete.ShadowDecoration.Parent = this.item_delete;
-            this.item_delete.Size = new System.Drawing.Size(131, 33);
-            this.item_delete.TabIndex = 9;
-            this.item_delete.Text = "Delete";
-            this.item_delete.Click += new System.EventHandler(this.item_delete_Click);
             // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.BorderRadius = 12;
             this.guna2Elipse1.TargetControl = this;
             // 
+            // order_edit
+            // 
+            this.order_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.order_edit.BorderColor = System.Drawing.Color.Empty;
+            this.order_edit.CheckedState.Parent = this.order_edit;
+            this.order_edit.CustomImages.Parent = this.order_edit;
+            this.order_edit.FillColor = System.Drawing.Color.Empty;
+            this.order_edit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.order_edit.ForeColor = System.Drawing.Color.White;
+            this.order_edit.HoverState.Parent = this.order_edit;
+            this.order_edit.Image = ((System.Drawing.Image)(resources.GetObject("order_edit.Image")));
+            this.order_edit.Location = new System.Drawing.Point(530, 44);
+            this.order_edit.Name = "order_edit";
+            this.order_edit.ShadowDecoration.Parent = this.order_edit;
+            this.order_edit.Size = new System.Drawing.Size(39, 45);
+            this.order_edit.TabIndex = 15;
+            this.order_edit.Click += new System.EventHandler(this.order_edit_Click);
+            // 
+            // order_delete
+            // 
+            this.order_delete.BackColor = System.Drawing.Color.Red;
+            this.order_delete.BorderColor = System.Drawing.Color.Empty;
+            this.order_delete.CheckedState.Parent = this.order_delete;
+            this.order_delete.CustomImages.Parent = this.order_delete;
+            this.order_delete.FillColor = System.Drawing.Color.Empty;
+            this.order_delete.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.order_delete.ForeColor = System.Drawing.Color.White;
+            this.order_delete.HoverState.Parent = this.order_delete;
+            this.order_delete.Image = ((System.Drawing.Image)(resources.GetObject("order_delete.Image")));
+            this.order_delete.Location = new System.Drawing.Point(530, 0);
+            this.order_delete.Name = "order_delete";
+            this.order_delete.ShadowDecoration.Parent = this.order_delete;
+            this.order_delete.Size = new System.Drawing.Size(40, 49);
+            this.order_delete.TabIndex = 14;
+            this.order_delete.Click += new System.EventHandler(this.order_delete_Click);
+            // 
+            // item_Quantity
+            // 
+            this.item_Quantity.AutoSize = true;
+            this.item_Quantity.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.item_Quantity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
+            this.item_Quantity.Location = new System.Drawing.Point(371, 64);
+            this.item_Quantity.Name = "item_Quantity";
+            this.item_Quantity.Size = new System.Drawing.Size(16, 18);
+            this.item_Quantity.TabIndex = 16;
+            this.item_Quantity.Text = "3";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(356, 44);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(70, 18);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Quantity";
+            // 
             // UC_productItemList
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Controls.Add(this.item_delete);
-            this.Controls.Add(this.item_quantity);
-            this.Controls.Add(this.item_decrease);
-            this.Controls.Add(this.item_increase);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.item_Quantity);
+            this.Controls.Add(this.order_edit);
+            this.Controls.Add(this.order_delete);
             this.Controls.Add(this.item_factoryPrice);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.item_sellPrice);
@@ -199,7 +190,7 @@ namespace cacharSystem
             this.Controls.Add(this.item_image);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "UC_productItemList";
-            this.Size = new System.Drawing.Size(566, 89);
+            this.Size = new System.Drawing.Size(569, 89);
             this.Load += new System.EventHandler(this.UC_productItemList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.item_image)).EndInit();
             this.ResumeLayout(false);
@@ -215,10 +206,10 @@ namespace cacharSystem
         private System.Windows.Forms.Label item_sellPrice;
         private System.Windows.Forms.Label item_factoryPrice;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2Button item_increase;
-        private Guna.UI2.WinForms.Guna2Button item_decrease;
-        private System.Windows.Forms.Label item_quantity;
-        private Guna.UI2.WinForms.Guna2Button item_delete;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Button order_edit;
+        private Guna.UI2.WinForms.Guna2Button order_delete;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label item_Quantity;
     }
 }

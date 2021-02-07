@@ -55,6 +55,7 @@ namespace cacharSystem
             this.label1.Size = new System.Drawing.Size(126, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Product info";
+        //    this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -67,6 +68,7 @@ namespace cacharSystem
             this.label2.Size = new System.Drawing.Size(61, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "Name";
+         //   this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -79,6 +81,7 @@ namespace cacharSystem
             this.label3.Size = new System.Drawing.Size(82, 21);
             this.label3.TabIndex = 2;
             this.label3.Text = "Quantity";
+        //    this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -91,6 +94,7 @@ namespace cacharSystem
             this.label4.Size = new System.Drawing.Size(119, 21);
             this.label4.TabIndex = 3;
             this.label4.Text = "Factory price";
+        //    this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -103,6 +107,7 @@ namespace cacharSystem
             this.label5.Size = new System.Drawing.Size(82, 21);
             this.label5.TabIndex = 4;
             this.label5.Text = "Sell price";
+        //    this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // image
             // 
@@ -122,6 +127,7 @@ namespace cacharSystem
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(172, 32);
             this.name.TabIndex = 7;
+         //   this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
             // 
             // quantity
             // 
@@ -130,6 +136,7 @@ namespace cacharSystem
             this.quantity.Name = "quantity";
             this.quantity.Size = new System.Drawing.Size(172, 32);
             this.quantity.TabIndex = 8;
+          //  this.quantity.TextChanged += new System.EventHandler(this.quantity_TextChanged);
             // 
             // sPrice
             // 
@@ -138,6 +145,7 @@ namespace cacharSystem
             this.sPrice.Name = "sPrice";
             this.sPrice.Size = new System.Drawing.Size(172, 32);
             this.sPrice.TabIndex = 10;
+           // this.sPrice.TextChanged += new System.EventHandler(this.sPrice_TextChanged);
             // 
             // fPrice
             // 
@@ -146,6 +154,7 @@ namespace cacharSystem
             this.fPrice.Name = "fPrice";
             this.fPrice.Size = new System.Drawing.Size(172, 32);
             this.fPrice.TabIndex = 9;
+           // this.fPrice.TextChanged += new System.EventHandler(this.fPrice_TextChanged);
             // 
             // addProduct
             // 

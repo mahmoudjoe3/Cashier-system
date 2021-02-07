@@ -19,8 +19,18 @@ namespace cacharSystem
         public Form1()
         {
             InitializeComponent();
+            initUi();
+        }
+
+        private void initUi()
+        {
+            productListContainer.Visible = true;
             generateProductList();
-            date.Text=getDate();
+            date.Text = getDate();
+            GenrateaddProductUC();
+            genrateAddCashierContainer();
+            genratePropContaner();
+            genrateOrderCotainer();
         }
 
         private String getDate()
@@ -64,7 +74,7 @@ namespace cacharSystem
 
         private void generateProductList()
         {
-            panalContainer.Controls.Clear();
+            productListContainer.Controls.Clear();
             products.Add(new product(1, "tit", 3, 40, 30, "inrfrnfj"));
             products.Add(new product(2, "tit1", 3, 20, 30, "inrfrnfj"));
             products.Add(new product(3, "tit2", 3, 30, 310, "inrfrnfj"));
@@ -89,7 +99,7 @@ namespace cacharSystem
         }
         private void genrateProductListView()
         {
-            panalContainer.Controls.Clear();
+            productListContainer.Controls.Clear();
             foreach (product p in products)
             {
                 addUserControl(p);
@@ -106,19 +116,19 @@ namespace cacharSystem
             uc.setSellPrice(p.sellPrice);
             uc.setFactoryPrice(p.factoryPrice);
             uc.setId(p.id);
-            int uc_count = panalContainer.Controls.Count;
+            int uc_count = productListContainer.Controls.Count;
             if (uc_count != 0)
             {
                 uc.Location = new Point(uc.Location.X
                     , uc.Location.Y + (uc_count * uc.Height));
             }
-            panalContainer.Controls.Add(uc);
+            productListContainer.Controls.Add(uc);
         }
         private void filter()
         {
             if (search.Text.Trim().Length > 0 && !search.Text.Equals("Search"))
             {
-                panalContainer.Controls.Clear();
+                productListContainer.Controls.Clear();
                 String searchKey = search.Text;
                 foreach (product p in products)
                 {
@@ -129,73 +139,95 @@ namespace cacharSystem
                 }
             }
         }
-
+        private void hideContainer()
+        {
+            addProductContainer.Visible = false;
+            productListContainer.Visible = false;
+            orderListContainer.Visible = false;
+            propContainer.Visible = false;
+            AddCashierContainer.Visible = false;
+        }
         private void addProducts_Click(object sender, EventArgs e)
         {
-            panalContainer.Controls.Clear();
+            hideContainer();
+            addProductContainer.Visible = true;
+        }
+
+        private void GenrateaddProductUC()
+        {
+            //addProductContainer.Controls.Clear();
             addProductUC uc = new addProductUC();
             uc.BringToFront();
             uc.Dock = DockStyle.Fill;
-            panalContainer.Controls.Add(uc);
+            addProductContainer.Controls.Add(uc);
         }
 
         private void Home_Click(object sender, EventArgs e)
         {
+            hideContainer();
+            productListContainer.Visible = true;
+        }
 
-            genrateProductListView();
+        private void addCashier_Click(object sender, EventArgs e)
+        {
+            hideContainer();
+            AddCashierContainer.Visible = true;  
+        }
+        private void genrateAddCashierContainer()
+        {
+            //AddCashierContainer.Controls.Clear();
+            registercashierUC uc = new registercashierUC();
+            uc.BringToFront();
+            uc.Dock = DockStyle.Fill;
+            AddCashierContainer.Controls.Add(uc);
+        }
+
+        private void prop_Click(object sender, EventArgs e)
+        {
+            hideContainer();
+            propContainer.Visible = true;
+        }
+
+        private void genratePropContaner()
+        {
+            //propContainer.Controls.Clear();
+            propUC uc = new propUC();
+            uc.BringToFront();
+            uc.Dock = DockStyle.Fill;
+            propContainer.Controls.Add(uc);
+        }
+
+        private void recipt_Click(object sender, EventArgs e)
+        {
+            hideContainer();
+            orderListContainer.Visible = true;
+        }
+        private void genrateOrderCotainer()
+        {
+            orderListContainer.Controls.Clear();
+            for (int i = 0; i < 12; i++)
+            {
+                orderUC uc = new orderUC();
+                uc.BringToFront();
+                /*uc.setTitle(p.title);
+                //uc_.setImage(p.image);
+                uc.setQuantity(p.quantity);
+                uc.setSellPrice(p.sellPrice);
+                uc.setFactoryPrice(p.factoryPrice);
+                uc.setId(p.id);*/
+                int uc_count = orderListContainer.Controls.Count;
+                if (uc_count != 0)
+                {
+                    uc.Location = new Point(uc.Location.X
+                        , uc.Location.Y + (uc_count * uc.Height));
+                }
+                orderListContainer.Controls.Add(uc);
+            }
         }
 
         private void exit_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void addCashier_Click(object sender, EventArgs e)
-        {
-            panalContainer.Controls.Clear();
-            registercashierUC uc = new registercashierUC();
-            uc.BringToFront();
-            uc.Dock = DockStyle.Fill;
-            panalContainer.Controls.Add(uc);
-        }
-
-        private void prop_Click(object sender, EventArgs e)
-        {
-            panalContainer.Controls.Clear();
-            propUC uc = new propUC();
-            uc.BringToFront();
-            uc.Dock = DockStyle.Fill;
-            panalContainer.Controls.Add(uc);
-        }
-
-        private void addordersControl()
-        {
-
-            orderUC uc = new orderUC();
-            uc.BringToFront();
-            /*uc.setTitle(p.title);
-            //uc_.setImage(p.image);
-            uc.setQuantity(p.quantity);
-            uc.setSellPrice(p.sellPrice);
-            uc.setFactoryPrice(p.factoryPrice);
-            uc.setId(p.id);*/
-            int uc_count = panalContainer.Controls.Count;
-            if (uc_count != 0)
-            {
-                uc.Location = new Point(uc.Location.X
-                    , uc.Location.Y + (uc_count * uc.Height));
-            }   
-            panalContainer.Controls.Add(uc);
-        }
-
-        private void recipt_Click(object sender, EventArgs e)
-        {
-            panalContainer.Controls.Clear();
-            for (int i=0; i<12; i++)
-            {
-                addordersControl();
-            }
-
         }
     }
 }
