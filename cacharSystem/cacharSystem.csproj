@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>cacharSystem</RootNamespace>
     <AssemblyName>cacharSystem</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,11 +34,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\Visual Studio 2013\Projects\FCIS Class Room Management System\FCIS Class Room Management System\bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,6 +72,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Splash.Designer.cs">
+      <DependentUpon>Form_Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="orderUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -89,6 +106,12 @@
     <Compile Include="propUC.Designer.cs">
       <DependentUpon>propUC.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegisterationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterationForm.Designer.cs">
+      <DependentUpon>RegisterationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="registercashierUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -104,6 +127,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Splash.resx">
+      <DependentUpon>Form_Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="orderUC.resx">
       <DependentUpon>orderUC.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,9 +147,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="propUC.resx">
       <DependentUpon>propUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterationForm.resx">
+      <DependentUpon>RegisterationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="registercashierUC.resx">
       <DependentUpon>registercashierUC.cs</DependentUpon>

@@ -29,3 +29,23 @@ D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.registerca
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.propUC.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.orderUC.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.editProductForm.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\bin\Debug\cacharSystem.exe.config
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.exe
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.pdb
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\bin\Debug\cacharSystem.exe
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\bin\Debug\cacharSystem.pdb
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\bin\Debug\Guna.UI2.dll
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csprojResolveAssemblyReference.cache
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.addProductUC.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.editProductForm.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Form1.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.orderUC.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.UC_productItemList.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Properties.Resources.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.propUC.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.registercashierUC.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.GenerateResource.Cache
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.LoginForm.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.RegisterationForm.resources
+C:\Users\a\Documents\GitHub\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Form_Splash.resources

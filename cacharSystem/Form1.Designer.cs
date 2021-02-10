@@ -42,6 +42,10 @@ namespace cacharSystem
             this.Home = new Guna.UI2.WinForms.Guna2Button();
             this.imgSlider = new System.Windows.Forms.PictureBox();
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.AddCashierContainer = new System.Windows.Forms.Panel();
+            this.propContainer = new System.Windows.Forms.Panel();
+            this.orderListContainer = new System.Windows.Forms.Panel();
+            this.addProductContainer = new System.Windows.Forms.Panel();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -52,10 +56,6 @@ namespace cacharSystem
             this.search = new System.Windows.Forms.TextBox();
             this.productListContainer = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.addProductContainer = new System.Windows.Forms.Panel();
-            this.orderListContainer = new System.Windows.Forms.Panel();
-            this.propContainer = new System.Windows.Forms.Panel();
-            this.AddCashierContainer = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -294,6 +294,42 @@ namespace cacharSystem
             this.panelContainer.Size = new System.Drawing.Size(794, 570);
             this.panelContainer.TabIndex = 1;
             // 
+            // AddCashierContainer
+            // 
+            this.AddCashierContainer.AutoScroll = true;
+            this.AddCashierContainer.Location = new System.Drawing.Point(17, 80);
+            this.AddCashierContainer.Name = "AddCashierContainer";
+            this.AddCashierContainer.Size = new System.Drawing.Size(600, 474);
+            this.AddCashierContainer.TabIndex = 4;
+            this.AddCashierContainer.Visible = false;
+            // 
+            // propContainer
+            // 
+            this.propContainer.AutoScroll = true;
+            this.propContainer.Location = new System.Drawing.Point(17, 80);
+            this.propContainer.Name = "propContainer";
+            this.propContainer.Size = new System.Drawing.Size(600, 474);
+            this.propContainer.TabIndex = 3;
+            this.propContainer.Visible = false;
+            // 
+            // orderListContainer
+            // 
+            this.orderListContainer.AutoScroll = true;
+            this.orderListContainer.Location = new System.Drawing.Point(17, 80);
+            this.orderListContainer.Name = "orderListContainer";
+            this.orderListContainer.Size = new System.Drawing.Size(600, 474);
+            this.orderListContainer.TabIndex = 2;
+            this.orderListContainer.Visible = false;
+            // 
+            // addProductContainer
+            // 
+            this.addProductContainer.AutoScroll = true;
+            this.addProductContainer.Location = new System.Drawing.Point(17, 80);
+            this.addProductContainer.Name = "addProductContainer";
+            this.addProductContainer.Size = new System.Drawing.Size(600, 474);
+            this.addProductContainer.TabIndex = 1;
+            this.addProductContainer.Visible = false;
+            // 
             // guna2CustomGradientPanel3
             // 
             this.guna2CustomGradientPanel3.BorderRadius = 15;
@@ -328,7 +364,7 @@ namespace cacharSystem
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(45, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(230, 21);
+            this.label1.Size = new System.Drawing.Size(196, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "mahmoudjoe3@gmail.com";
             // 
@@ -354,7 +390,7 @@ namespace cacharSystem
             this.date.ForeColor = System.Drawing.Color.White;
             this.date.Location = new System.Drawing.Point(226, 4);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(129, 23);
+            this.date.Size = new System.Drawing.Size(105, 21);
             this.date.TabIndex = 0;
             this.date.Text = "2020, JON, 2";
             // 
@@ -394,7 +430,7 @@ namespace cacharSystem
             this.search.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.search.Location = new System.Drawing.Point(9, 4);
             this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(147, 21);
+            this.search.Size = new System.Drawing.Size(147, 17);
             this.search.TabIndex = 0;
             this.search.Text = "Search";
             this.search.MouseClick += new System.Windows.Forms.MouseEventHandler(this.search_MouseClick);
@@ -414,42 +450,6 @@ namespace cacharSystem
             // 
             this.guna2Elipse1.BorderRadius = 30;
             this.guna2Elipse1.TargetControl = this;
-            // 
-            // addProductContainer
-            // 
-            this.addProductContainer.AutoScroll = true;
-            this.addProductContainer.Location = new System.Drawing.Point(17, 80);
-            this.addProductContainer.Name = "addProductContainer";
-            this.addProductContainer.Size = new System.Drawing.Size(600, 474);
-            this.addProductContainer.TabIndex = 1;
-            this.addProductContainer.Visible = false;
-            // 
-            // orderListContainer
-            // 
-            this.orderListContainer.AutoScroll = true;
-            this.orderListContainer.Location = new System.Drawing.Point(17, 80);
-            this.orderListContainer.Name = "orderListContainer";
-            this.orderListContainer.Size = new System.Drawing.Size(600, 474);
-            this.orderListContainer.TabIndex = 2;
-            this.orderListContainer.Visible = false;
-            // 
-            // propContainer
-            // 
-            this.propContainer.AutoScroll = true;
-            this.propContainer.Location = new System.Drawing.Point(17, 80);
-            this.propContainer.Name = "propContainer";
-            this.propContainer.Size = new System.Drawing.Size(600, 474);
-            this.propContainer.TabIndex = 3;
-            this.propContainer.Visible = false;
-            // 
-            // AddCashierContainer
-            // 
-            this.AddCashierContainer.AutoScroll = true;
-            this.AddCashierContainer.Location = new System.Drawing.Point(17, 80);
-            this.AddCashierContainer.Name = "AddCashierContainer";
-            this.AddCashierContainer.Size = new System.Drawing.Size(600, 474);
-            this.AddCashierContainer.TabIndex = 4;
-            this.AddCashierContainer.Visible = false;
             // 
             // Form1
             // 
