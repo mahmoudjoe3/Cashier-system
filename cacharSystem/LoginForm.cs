@@ -102,9 +102,10 @@ namespace cacharSystem
 
         private void sign_in_Click(object sender, EventArgs e)
         {
-            RegisterationForm form = new RegisterationForm();
+            Form1 form = new Form1();
             this.Hide();
             form.Show();
+            //this.Close();
             login_process();
         }
 

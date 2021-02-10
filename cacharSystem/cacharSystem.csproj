@@ -84,6 +84,8 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Bills.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="orderUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
