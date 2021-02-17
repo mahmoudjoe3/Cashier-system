@@ -302,6 +302,7 @@ namespace cacharSystem
             this.AddCashierContainer.Size = new System.Drawing.Size(600, 474);
             this.AddCashierContainer.TabIndex = 4;
             this.AddCashierContainer.Visible = false;
+            this.AddCashierContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.AddCashierContainer_Paint);
             // 
             // propContainer
             // 
@@ -344,6 +345,7 @@ namespace cacharSystem
             this.guna2CustomGradientPanel3.ShadowDecoration.Parent = this.guna2CustomGradientPanel3;
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(288, 34);
             this.guna2CustomGradientPanel3.TabIndex = 2;
+            this.guna2CustomGradientPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel3_Paint);
             // 
             // pictureBox1
             // 
@@ -364,9 +366,8 @@ namespace cacharSystem
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(45, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 19);
+            this.label1.Size = new System.Drawing.Size(0, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "mahmoudjoe3@gmail.com";
             // 
             // guna2CustomGradientPanel2
             // 

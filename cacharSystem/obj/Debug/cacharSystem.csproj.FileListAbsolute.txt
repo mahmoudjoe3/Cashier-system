@@ -70,3 +70,23 @@ C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\ca
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.CopyComplete
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.exe
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.pdb
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\cacharSystem.exe.config
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\cacharSystem.exe
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\cacharSystem.pdb
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\Guna.UI2.dll
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csprojAssemblyReference.cache
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.addProductUC.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.editProductForm.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Form1.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Form_Splash.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.LoginForm.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.orderUC.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.UC_productItemList.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Properties.Resources.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.propUC.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.registercashierUC.resources
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.GenerateResource.cache
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.CopyComplete
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.exe
+C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.pdb

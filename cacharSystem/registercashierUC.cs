@@ -27,10 +27,8 @@ namespace cacharSystem
         {
             
             string Cashier_name = name.Text.ToString();
-            string Cashier_Email = email.Text.ToString();
-            string Cashier_id = nationalId.Text.ToString();
-            string Cashier_password = password.Text.ToString();
-            string confirmpass = confirmPassword.Text.ToString();
+           /* string Cashier_Email = email.Text.ToString();
+           
             if (!(String.IsNullOrEmpty(Cashier_name)||
                 String.IsNullOrEmpty(Cashier_password) ||
                 String.IsNullOrEmpty(confirmpass) ||
@@ -48,6 +46,7 @@ namespace cacharSystem
             {
                 MessageBox.Show("there is incompleted data");
             }
+           */
         }
     }
 }

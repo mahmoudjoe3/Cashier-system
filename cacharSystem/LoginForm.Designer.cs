@@ -35,10 +35,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pass_check = new System.Windows.Forms.CheckBox();
-            this.pass = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.email = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -122,38 +119,6 @@
             this.panel1.Size = new System.Drawing.Size(1000, 2);
             this.panel1.TabIndex = 7;
             // 
-            // pass_check
-            // 
-            this.pass_check.AutoSize = true;
-            this.pass_check.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pass_check.ForeColor = System.Drawing.Color.White;
-            this.pass_check.Location = new System.Drawing.Point(681, 374);
-            this.pass_check.Name = "pass_check";
-            this.pass_check.Size = new System.Drawing.Size(57, 20);
-            this.pass_check.TabIndex = 30;
-            this.pass_check.Text = "Show";
-            this.pass_check.UseVisualStyleBackColor = true;
-            this.pass_check.CheckedChanged += new System.EventHandler(this.pass_check_CheckedChanged);
-            // 
-            // pass
-            // 
-            this.pass.BorderColorFocused = System.Drawing.Color.Silver;
-            this.pass.BorderColorIdle = System.Drawing.Color.White;
-            this.pass.BorderColorMouseHover = System.Drawing.Color.Silver;
-            this.pass.BorderThickness = 1;
-            this.pass.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pass.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.pass.ForeColor = System.Drawing.Color.Gray;
-            this.pass.isPassword = true;
-            this.pass.Location = new System.Drawing.Point(346, 363);
-            this.pass.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.pass.Name = "pass";
-            this.pass.Size = new System.Drawing.Size(308, 45);
-            this.pass.TabIndex = 28;
-            this.pass.Text = "12345678...";
-            this.pass.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.pass.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pass_MouseClick);
-            // 
             // email
             // 
             this.email.BorderColorFocused = System.Drawing.Color.Silver;
@@ -164,36 +129,25 @@
             this.email.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.email.ForeColor = System.Drawing.Color.Gray;
             this.email.isPassword = false;
-            this.email.Location = new System.Drawing.Point(346, 254);
+            this.email.Location = new System.Drawing.Point(346, 317);
             this.email.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(308, 45);
             this.email.TabIndex = 29;
-            this.email.Text = "Type your Email";
+            this.email.Text = "Enter Your Code";
             this.email.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.email.MouseClick += new System.Windows.Forms.MouseEventHandler(this.email_MouseClick);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(343, 329);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 17);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "Password";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(343, 223);
+            this.label2.Location = new System.Drawing.Point(343, 295);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 17);
+            this.label2.Size = new System.Drawing.Size(41, 17);
             this.label2.TabIndex = 27;
-            this.label2.Text = "Email";
+            this.label2.Text = "Code";
             // 
             // label1
             // 
@@ -244,7 +198,7 @@
             this.sign_in.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sign_in.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sign_in.ForeColor = System.Drawing.Color.White;
-            this.sign_in.Location = new System.Drawing.Point(346, 447);
+            this.sign_in.Location = new System.Drawing.Point(346, 430);
             this.sign_in.Name = "sign_in";
             this.sign_in.Size = new System.Drawing.Size(308, 41);
             this.sign_in.TabIndex = 31;
@@ -266,10 +220,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.sign_in);
-            this.Controls.Add(this.pass_check);
-            this.Controls.Add(this.pass);
             this.Controls.Add(this.email);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -294,10 +245,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.CheckBox pass_check;
-        private Bunifu.Framework.UI.BunifuMetroTextbox pass;
         private Bunifu.Framework.UI.BunifuMetroTextbox email;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;

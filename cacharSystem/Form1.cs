@@ -15,11 +15,15 @@ namespace cacharSystem
     public partial class Form1 : Form
     {
         List<product> products = new List<product>();
+        public  string name ;
         
-        public Form1()
+        public Form1(string name)
         {
+            this.name = name;
+            
             InitializeComponent();
             initUi();
+            label1.Text = name;
         }
 
         private void initUi()
@@ -228,6 +232,16 @@ namespace cacharSystem
         private void exit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void AddCashierContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2CustomGradientPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

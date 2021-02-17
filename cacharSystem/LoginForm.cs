@@ -29,7 +29,7 @@ namespace cacharSystem
 
         private void formRun()
         {
-            Application.Run(new Form_Splash());
+           // Application.Run(new Form_Splash());
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
@@ -83,26 +83,13 @@ namespace cacharSystem
 
         
 
-        private void pass_check_CheckedChanged(object sender, EventArgs e)
-        {
-            if (pass_check.Checked)
-                pass.isPassword = false;
-            else
-                pass.isPassword = true;
-        }
+       
 
-        private void pass_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (pass.ForeColor != Color.White)
-            {
-                pass.Text = "";
-                pass.ForeColor = Color.White;
-            }
-        }
+       
 
         private void sign_in_Click(object sender, EventArgs e)
         {
-            Form1 form = new Form1();
+            Form1 form = new Form1(email.Text);
             this.Hide();
             form.Show();
             //this.Close();
