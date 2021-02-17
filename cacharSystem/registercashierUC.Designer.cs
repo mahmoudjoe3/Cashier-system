@@ -34,7 +34,7 @@ namespace cacharSystem
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.addCashier = new Guna.UI2.WinForms.Guna2Button();
-            this.nationalId = new System.Windows.Forms.TextBox();
+            this.Code = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // name
@@ -98,19 +98,19 @@ namespace cacharSystem
             this.addCashier.Text = "Register Cashier";
             this.addCashier.Click += new System.EventHandler(this.addCashier_Click);
             // 
-            // nationalId
+            // Code
             // 
-            this.nationalId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.nationalId.Location = new System.Drawing.Point(237, 173);
-            this.nationalId.Name = "nationalId";
-            this.nationalId.Size = new System.Drawing.Size(254, 27);
-            this.nationalId.TabIndex = 18;
+            this.Code.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Code.Location = new System.Drawing.Point(237, 173);
+            this.Code.Name = "Code";
+            this.Code.Size = new System.Drawing.Size(254, 27);
+            this.Code.TabIndex = 18;
             // 
             // registercashierUC
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.nationalId);
+            this.Controls.Add(this.Code);
             this.Controls.Add(this.addCashier);
             this.Controls.Add(this.name);
             this.Controls.Add(this.label3);
@@ -131,6 +131,6 @@ namespace cacharSystem
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button addCashier;
-        private System.Windows.Forms.TextBox nationalId;
+        private System.Windows.Forms.TextBox Code;
     }
 }

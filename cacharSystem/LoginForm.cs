@@ -94,6 +94,7 @@ namespace cacharSystem
             form.Show();
             //this.Close();
             login_process();
+
         }
 
         private void login_process()

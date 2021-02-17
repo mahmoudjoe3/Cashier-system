@@ -53,7 +53,6 @@ C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\ca
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\cacharSystem.exe
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\cacharSystem.pdb
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\Guna.UI2.dll
-C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csprojAssemblyReference.cache
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.addProductUC.resources
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.editProductForm.resources
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Form1.resources
@@ -63,7 +62,6 @@ C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\ca
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.UC_productItemList.resources
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Properties.Resources.resources
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.propUC.resources
-C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.RegisterationForm.resources
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.registercashierUC.resources
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.GenerateResource.cache
 C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.CoreCompileInputs.cache
@@ -90,3 +88,11 @@ C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj
 C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csproj.CopyComplete
 C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.exe
 C:\Users\Mohamed Shafik\source\repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.pdb
+C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\EntityFramework.dll
+C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\EntityFramework.xml
+C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Migrations.add_tables.resources
+C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.csprojAssemblyReference.cache
+C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Migrations.img.resources
+C:\Users\islam\Source\Repos\mahmoudjoe3\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Migrations.img2.resources

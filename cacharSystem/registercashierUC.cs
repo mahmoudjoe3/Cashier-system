@@ -13,9 +13,11 @@ namespace cacharSystem
 {
     public partial class registercashierUC : UserControl
     {
+        Dbcontext db;
         public registercashierUC()
         {
             InitializeComponent();
+            db = new Dbcontext();
         }
 
         private void registercashierUC_Load(object sender, EventArgs e)
@@ -25,28 +27,13 @@ namespace cacharSystem
 
         private void addCashier_Click(object sender, EventArgs e)
         {
-            
-            string Cashier_name = name.Text.ToString();
-           /* string Cashier_Email = email.Text.ToString();
-           
-            if (!(String.IsNullOrEmpty(Cashier_name)||
-                String.IsNullOrEmpty(Cashier_password) ||
-                String.IsNullOrEmpty(confirmpass) ||
-                String.IsNullOrEmpty(Cashier_id))&&
-                Cashier_password.Equals(confirmpass))
-            {
-                cashier cashier;
-                if (String.IsNullOrEmpty(Cashier_Email))
-                    cashier = new cashier(Cashier_name, Cashier_id, Cashier_password);
-                else if (Cashier_Email.Contains("@") && Cashier_Email.Contains("."))
-                    cashier = new cashier(Cashier_name, Cashier_Email, Cashier_id, Cashier_password);
-                MessageBox.Show("Cashier :: "+Cashier_name+"  iserted successfuly");
-            }
-            else
-            {
-                MessageBox.Show("there is incompleted data");
-            }
-           */
+
+            User user = new User();
+            user.Code =Convert.ToInt32(Code.Text);
+            user.Name = name.Text;
+            db.Users.Add(user);
+            db.SaveChanges();
+            MessageBox.Show("Cashier Added Successfully");
         }
     }
 }

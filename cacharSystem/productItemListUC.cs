@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace cacharSystem
     public partial class UC_productItemList : UserControl
     {
         int productId = 0;
+        Dbcontext db = new Dbcontext();
         public UC_productItemList()
         {
             InitializeComponent();
@@ -26,9 +28,9 @@ namespace cacharSystem
         {
             item_title.Text = title;
         }
-        public void setImage(String img)
+        public void setImage(byte[] img)
         {
-            //item_image=img;
+            item_image.Image = Image.FromStream(new MemoryStream(img));
         }
         public void setSellPrice(float sellPrice)
         {
@@ -65,19 +67,20 @@ namespace cacharSystem
 
         private void order_delete_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("deleted item id" + productId);
+            var p = db.products.Find(productId);
+            db.products.Remove(p);
+            db.SaveChanges();
+            
+            MessageBox.Show("deleted item " + p.title);
             //delete by productId
         }
 
         private void order_edit_Click(object sender, EventArgs e)
         {
-            product p = new product(productId, item_title.Text.ToString()
-                , int.Parse(item_Quantity.Text.ToString())
-                , float.Parse(item_sellPrice.Text.ToString().Split(' ')[0])
-                , float.Parse(item_factoryPrice.Text.ToString().Split(' ')[0])
-                ,item_image.ImageLocation);
+           
+            
             editProductForm form = new editProductForm();
-            form.setProduct(p);
+            form.setProduct(db.products.Find(productId));
             form.Show();
         }
     }
