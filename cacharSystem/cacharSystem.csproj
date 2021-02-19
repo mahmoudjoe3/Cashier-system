@@ -88,11 +88,11 @@
     <Compile Include="Form_Splash.Designer.cs">
       <DependentUpon>Form_Splash.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="loginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202102171150440_add_tables.cs" />
     <Compile Include="Migrations\202102171150440_add_tables.designer.cs">
@@ -150,8 +150,8 @@
     <EmbeddedResource Include="Form_Splash.resx">
       <DependentUpon>Form_Splash.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102171150440_add_tables.resx">
       <DependentUpon>202102171150440_add_tables.cs</DependentUpon>

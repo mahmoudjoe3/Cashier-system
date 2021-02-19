@@ -20,10 +20,11 @@ namespace cacharSystem
         
         public Form1(string name)
         {
-            db = new Dbcontext();
-            this.name = name;
+            
             
             InitializeComponent();
+            db = new Dbcontext();
+            this.name = name;
             initUi();
             label1.Text = name;
         }
@@ -226,6 +227,11 @@ namespace cacharSystem
         }
 
         private void guna2CustomGradientPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelContainer_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -293,6 +293,7 @@ namespace cacharSystem
             this.panelContainer.Padding = new System.Windows.Forms.Padding(16);
             this.panelContainer.Size = new System.Drawing.Size(794, 570);
             this.panelContainer.TabIndex = 1;
+            this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
             // AddCashierContainer
             // 
@@ -366,7 +367,7 @@ namespace cacharSystem
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(45, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 19);
+            this.label1.Size = new System.Drawing.Size(0, 21);
             this.label1.TabIndex = 0;
             // 
             // guna2CustomGradientPanel2
@@ -391,7 +392,7 @@ namespace cacharSystem
             this.date.ForeColor = System.Drawing.Color.White;
             this.date.Location = new System.Drawing.Point(226, 4);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(105, 21);
+            this.date.Size = new System.Drawing.Size(129, 23);
             this.date.TabIndex = 0;
             this.date.Text = "2020, JON, 2";
             // 
@@ -431,7 +432,7 @@ namespace cacharSystem
             this.search.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.search.Location = new System.Drawing.Point(9, 4);
             this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(147, 17);
+            this.search.Size = new System.Drawing.Size(147, 21);
             this.search.TabIndex = 0;
             this.search.Text = "Search";
             this.search.MouseClick += new System.Windows.Forms.MouseEventHandler(this.search_MouseClick);
