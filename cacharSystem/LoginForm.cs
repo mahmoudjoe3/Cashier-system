@@ -19,9 +19,14 @@ namespace cacharSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1(codeTXT.Text);
+            casheirForm form1 = new casheirForm(codeTXT.Text);
+            this.Hide();
             form1.Show();
-            this.Dispose();
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -100,8 +100,10 @@ D:\شغل شفيق\Cashier-system\cacharSystem\bin\Debug\EntityFramework.dll
 D:\شغل شفيق\Cashier-system\cacharSystem\bin\Debug\EntityFramework.SqlServer.dll
 D:\شغل شفيق\Cashier-system\cacharSystem\bin\Debug\EntityFramework.xml
 D:\شغل شفيق\Cashier-system\cacharSystem\bin\Debug\EntityFramework.SqlServer.xml
-D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Form_Splash.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.LoginForm.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Migrations.add_tables.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Migrations.img.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Migrations.img2.resources
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.cartItem.resources
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.casheirForm.resources
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.cashierProductItem.resources

@@ -37,6 +37,8 @@ namespace cacharSystem
             this.codeTXT = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.adminRadio = new System.Windows.Forms.RadioButton();
+            this.userRadio = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -70,6 +72,7 @@ namespace cacharSystem
             this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
             this.guna2ImageButton1.Size = new System.Drawing.Size(29, 30);
             this.guna2ImageButton1.TabIndex = 1;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // codeTXT
             // 
@@ -125,12 +128,40 @@ namespace cacharSystem
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
+            // adminRadio
+            // 
+            this.adminRadio.AutoSize = true;
+            this.adminRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adminRadio.ForeColor = System.Drawing.SystemColors.Control;
+            this.adminRadio.Location = new System.Drawing.Point(67, 237);
+            this.adminRadio.Name = "adminRadio";
+            this.adminRadio.Size = new System.Drawing.Size(75, 22);
+            this.adminRadio.TabIndex = 5;
+            this.adminRadio.TabStop = true;
+            this.adminRadio.Text = "Admin";
+            this.adminRadio.UseVisualStyleBackColor = true;
+            // 
+            // userRadio
+            // 
+            this.userRadio.AutoSize = true;
+            this.userRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userRadio.ForeColor = System.Drawing.SystemColors.Control;
+            this.userRadio.Location = new System.Drawing.Point(148, 237);
+            this.userRadio.Name = "userRadio";
+            this.userRadio.Size = new System.Drawing.Size(87, 22);
+            this.userRadio.TabIndex = 6;
+            this.userRadio.TabStop = true;
+            this.userRadio.Text = "Cashier";
+            this.userRadio.UseVisualStyleBackColor = true;
+            // 
             // loginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(44)))), ((int)(((byte)(123)))));
             this.ClientSize = new System.Drawing.Size(345, 400);
+            this.Controls.Add(this.userRadio);
+            this.Controls.Add(this.adminRadio);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.codeTXT);
@@ -153,5 +184,7 @@ namespace cacharSystem
         private Guna.UI2.WinForms.Guna2TextBox codeTXT;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RadioButton userRadio;
+        private System.Windows.Forms.RadioButton adminRadio;
     }
 }

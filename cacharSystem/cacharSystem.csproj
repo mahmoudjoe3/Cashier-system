@@ -70,6 +70,24 @@
     <Compile Include="addProduct.Designer.cs">
       <DependentUpon>addProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="cartItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cartItem.Designer.cs">
+      <DependentUpon>cartItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="casheirForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="casheirForm.Designer.cs">
+      <DependentUpon>casheirForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashierProductItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cashierProductItem.Designer.cs">
+      <DependentUpon>cashierProductItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="editProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,12 +99,6 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Splash.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Splash.Designer.cs">
-      <DependentUpon>Form_Splash.cs</DependentUpon>
     </Compile>
     <Compile Include="loginForm.cs">
       <SubType>Form</SubType>
@@ -141,14 +153,20 @@
     <EmbeddedResource Include="addProduct.resx">
       <DependentUpon>addProduct.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="cartItem.resx">
+      <DependentUpon>cartItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="casheirForm.resx">
+      <DependentUpon>casheirForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashierProductItem.resx">
+      <DependentUpon>cashierProductItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="editProductForm.resx">
       <DependentUpon>editProductForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Splash.resx">
-      <DependentUpon>Form_Splash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loginForm.resx">
       <DependentUpon>loginForm.cs</DependentUpon>
