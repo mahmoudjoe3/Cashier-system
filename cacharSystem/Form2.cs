@@ -12,24 +12,20 @@ using System.Windows.Forms;
 
 namespace cacharSystem
 {
-    public partial class casheirForm : Form
+
+    public partial class Form2 : Form
     {
         List<product> products = new List<product>();
 
-        public casheirForm(String code)
+        public Form2(String code)
         {
             InitializeComponent();
             label1.Text = code;
             initUi();
         }
-
-        private void casheirForm_Load(object sender, EventArgs e)
-        {
-
-        }
         private void initUi()
         {
-            productContainer.Visible = true;
+            productListContainer.Visible = true;
             generateProductList();
             date.Text = getDate();
             genrateOrderCotainer();
@@ -39,30 +35,28 @@ namespace cacharSystem
             return DateTime.Now.ToString("ddd MMM,dd,yyyy");
         }
 
-        private void Home_CheckedChanged(object sender, EventArgs e)
-        {
-            moveImageBox(sender);
-        }
         private void moveImageBox(object sender)
         {
             Guna2Button b = (Guna2Button)sender;
             imgSlider.Location = new Point(b.Location.X + 20, b.Location.Y - 26);
             imgSlider.SendToBack();
         }
+
         private void generateProductList()
         {
-            productContainer.Controls.Clear();
+            productListContainer.Controls.Clear();
             //products = db.products.ToList();
             genrateProductListView();
         }
         private void genrateProductListView()
         {
-            productContainer.Controls.Clear();
+            productListContainer.Controls.Clear();
             foreach (product p in products)
             {
                 addUserControl(p);
             }
         }
+
         private void addUserControl(product p)
         {
 
@@ -74,22 +68,23 @@ namespace cacharSystem
             uc.setSellPrice(p.sellPrice);
             uc.setFactoryPrice(p.factoryPrice);
             uc.setId(p.id);
-            int uc_count = productContainer.Controls.Count;
+            int uc_count = productListContainer.Controls.Count;
             if (uc_count != 0)
             {
                 uc.Location = new Point(uc.Location.X
                     , uc.Location.Y + (uc_count * uc.Height));
             }
-            productContainer.Controls.Add(uc);
+            productListContainer.Controls.Add(uc);
         }
+
         private void hideContainer()
         {
-            reciptsContainer.Visible = false;
-            productContainer.Visible = false;
+            orderListContainer.Visible = false;
+            productListContainer.Visible = false;
         }
         private void genrateOrderCotainer()
         {
-            reciptsContainer.Controls.Clear();
+            orderListContainer.Controls.Clear();
             for (int i = 0; i < 12; i++)
             {
                 orderUC uc = new orderUC();
@@ -100,40 +95,47 @@ namespace cacharSystem
                 uc.setSellPrice(p.sellPrice);
                 uc.setFactoryPrice(p.factoryPrice);
                 uc.setId(p.id);*/
-                int uc_count = reciptsContainer.Controls.Count;
+                int uc_count = orderListContainer.Controls.Count;
                 if (uc_count != 0)
                 {
                     uc.Location = new Point(uc.Location.X
                         , uc.Location.Y + (uc_count * uc.Height));
                 }
-                reciptsContainer.Controls.Add(uc);
+                orderListContainer.Controls.Add(uc);
             }
         }
-
         private void Home_Click(object sender, EventArgs e)
         {
             generateProductList();
             hideContainer();
 
-            productContainer.Visible = true;
+            productListContainer.Visible = true;
+        }
+
+        private void Home_CheckedChanged(object sender, EventArgs e)
+        {
+            moveImageBox(sender);
         }
 
         private void recipt_Click(object sender, EventArgs e)
         {
             hideContainer();
-            reciptsContainer.Visible = true;
+            orderListContainer.Visible = true;
         }
 
-        private void exit_Click(object sender, EventArgs e)
+        private void exit_Click_1(object sender, EventArgs e)
         {
-            this.Close();
-
+            this.Hide();
+            loginForm loginForm = new loginForm();
+            loginForm.Show();
+            
         }
+
         private void filter()
         {
             if (search.Text.Trim().Length > 0 && !search.Text.Equals("Search"))
             {
-                productContainer.Controls.Clear();
+                productListContainer.Controls.Clear();
                 String searchKey = search.Text;
                 foreach (product p in products)
                 {
@@ -146,21 +148,6 @@ namespace cacharSystem
         }
 
         private void searchBTN_Click(object sender, EventArgs e)
-        {
-            filter();
-        }
-        private void search_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (search.Text.Equals("Search"))
-                search.Clear();
-        }
-
-        private void search_MouseLeave(object sender, EventArgs e)
-        {
-            if (search.Text.Trim().Length == 0)
-                search.Text = "Search";
-        }
-        private void search_TextChanged(object sender, EventArgs e)
         {
             filter();
         }
@@ -182,7 +169,24 @@ namespace cacharSystem
             cart.Controls.Add(uc);
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void search_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (search.Text.Equals("Search"))
+                search.Clear();
+        }
+
+        private void search_MouseLeave(object sender, EventArgs e)
+        {
+            if (search.Text.Trim().Length == 0)
+                search.Text = "Search";
+        }
+
+        private void search_TextChanged(object sender, EventArgs e)
+        {
+            filter();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

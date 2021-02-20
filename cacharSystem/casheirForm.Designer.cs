@@ -47,6 +47,7 @@ namespace cacharSystem
             this.recipt = new Guna.UI2.WinForms.Guna2Button();
             this.exit = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.guna2CustomGradientPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgSlider)).BeginInit();
@@ -306,11 +307,28 @@ namespace cacharSystem
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(85, 707);
             this.guna2CustomGradientPanel1.TabIndex = 1;
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
+            this.guna2Button1.Location = new System.Drawing.Point(1189, 0);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(41, 38);
+            this.guna2Button1.TabIndex = 28;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
             // casheirForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1230, 784);
+            this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.placeOrder);
             this.Controls.Add(this.reciptsContainer);
             this.Controls.Add(this.label2);
@@ -353,5 +371,6 @@ namespace cacharSystem
         private Guna.UI2.WinForms.Guna2Button recipt;
         private Guna.UI2.WinForms.Guna2Button exit;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

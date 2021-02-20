@@ -24,9 +24,10 @@ namespace cacharSystem
             form1.Show();
         }
 
-        private void guna2ImageButton1_Click(object sender, EventArgs e)
+
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
     }
 }

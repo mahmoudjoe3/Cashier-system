@@ -107,3 +107,4 @@ D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Migrations
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.cartItem.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.casheirForm.resources
 D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.cashierProductItem.resources
+D:\شغل شفيق\Cashier-system\cacharSystem\obj\Debug\cacharSystem.Form2.resources
